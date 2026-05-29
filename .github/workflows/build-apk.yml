@@ -31,7 +31,7 @@ jobs:
           build-tools: '34.0.0'
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build Web
         run: npm run build

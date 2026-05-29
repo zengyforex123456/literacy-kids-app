@@ -32,3 +32,11 @@ coverage
 # Python scripts (temporary)
 generate_words.py
 gen_cat*.py
+
+# Capacitor
+android/app/build
+android/app/src/main/assets/public
+android/.gradle
+android/build
+android/captures
+android/local.properties

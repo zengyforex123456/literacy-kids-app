@@ -43,6 +43,14 @@ export default defineConfig({
               expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
             },
           },
+          {
+            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/gh\/twitter\/twemoji\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'twemoji-svg-cache',
+              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 180 },
+            },
+          },
         ],
       },
     }),

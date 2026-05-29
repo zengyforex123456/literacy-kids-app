@@ -5,29 +5,17 @@ import { BubblePopGame } from '../BubblePopGame'
 
 describe('BubblePopGame', () => {
   it('should render game title', () => {
-    render(
-      <MemoryRouter>
-        <BubblePopGame />
-      </MemoryRouter>
-    )
-    expect(screen.getByText(/泡泡大作战/)).toBeDefined()
+    render(<MemoryRouter><BubblePopGame /></MemoryRouter>)
+    expect(screen.getByText(/泡泡大战/)).toBeDefined()
   })
 
   it('should render back button', () => {
-    render(
-      <MemoryRouter>
-        <BubblePopGame />
-      </MemoryRouter>
-    )
+    render(<MemoryRouter><BubblePopGame /></MemoryRouter>)
     expect(screen.getByText('←')).toBeDefined()
   })
 
   it('should show score', () => {
-    render(
-      <MemoryRouter>
-        <BubblePopGame />
-      </MemoryRouter>
-    )
+    render(<MemoryRouter><BubblePopGame /></MemoryRouter>)
     const elements = screen.getAllByText(/⭐/)
     expect(elements.length).toBeGreaterThan(0)
   })

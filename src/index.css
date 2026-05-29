@@ -1,18 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #FF6B6B;
-  --secondary: #4ECDC4;
-  --accent: #FFE66D;
-  --bg: #FFF8F0;
-  --surface: #FFFFFF;
-  --text: #2D3436;
-  --success: #51CF66;
-  --danger: #FF6B6B;
-  --radius: 20px;
-  --radius-sm: 16px;
-  --shadow: 0 4px 16px rgba(0,0,0,0.08);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --bbaby-red: #FF6B6B;
+  --bbaby-red-dark: #E04F4F;
+  --bbaby-blue: #4ECDC4;
+  --bbaby-blue-dark: #3DBBB3;
+  --bbaby-yellow: #FFD93D;
+  --bbaby-yellow-dark: #E6C22C;
+  --bbaby-purple: #A66CFF;
+  --bbaby-purple-dark: #8A4FDE;
+  --bbaby-green: #6BCB77;
+  --bbaby-green-dark: #55B561;
+  --bbaby-orange: #FF9F43;
+  --bbaby-pink: #FF9FF3;
+  --bbaby-cream: #FFFDF7;
+  --bbaby-text: #2D3436;
+  --shadow-sm: 0 4px 0px rgba(0,0,0,0.1);
+  --shadow-md: 0 6px 0px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 0px rgba(0,0,0,0.12);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
   --font-heading: 'ZCOOL KuaiLe', cursive;
   --font-body: 'Nunito', sans-serif;
 }
@@ -21,8 +29,8 @@
 
 body {
   font-family: var(--font-body);
-  background: var(--bg);
-  color: var(--text);
+  background: var(--bbaby-cream);
+  color: var(--bbaby-text);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   overflow-x: hidden;
@@ -57,9 +65,4 @@ body {
 @keyframes pop {
   0% { transform: scale(1); opacity: 1; }
   100% { transform: scale(2); opacity: 0; }
-}
-
-@keyframes rewardBurst {
-  0% { transform: translate(-50%, -50%) scale(0); opacity: 1; }
-  100% { transform: translate(-50%, -50%) scale(3); opacity: 0; }
 }

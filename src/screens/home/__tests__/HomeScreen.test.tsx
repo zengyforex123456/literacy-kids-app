@@ -4,24 +4,20 @@ import { MemoryRouter } from 'react-router-dom'
 import { HomeScreen } from '../HomeScreen'
 
 function renderHome() {
-  return render(
-    <MemoryRouter>
-      <HomeScreen />
-    </MemoryRouter>
-  )
+  return render(<MemoryRouter><HomeScreen /></MemoryRouter>)
 }
 
 describe('HomeScreen', () => {
-  it('should render the main title with emoji', () => {
+  it('should render the main title', () => {
     renderHome()
     expect(screen.getByText(/识字乐园/)).toBeDefined()
   })
 
   it('should render all 4 game cards', () => {
     renderHome()
-    expect(screen.getByText('森林寻宝')).toBeDefined()
-    expect(screen.getByText('泡泡大作战')).toBeDefined()
-    expect(screen.getByText('配对大闯关')).toBeDefined()
+    expect(screen.getByText('汉字森林')).toBeDefined()
+    expect(screen.getByText('泡泡大战')).toBeDefined()
+    expect(screen.getByText('配对闯关')).toBeDefined()
     expect(screen.getByText('书写描红')).toBeDefined()
   })
 

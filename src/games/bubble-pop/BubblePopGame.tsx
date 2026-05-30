@@ -54,6 +54,7 @@ export function BubblePopGame() {
       play('correct'); answerQuestion(true); addCoins(1)
         useGameProgressStore.getState().addLearnedChars([word.chinese])
         useGameProgressStore.getState().addLearnedChars([word.chinese])
+        useGameProgressStore.getState().addLearnedChars([word.chinese])
       setFeedback('correct'); setShowConfetti(true)
       speak('太棒了！' + word.chinese)
       setTimeout(() => { setFeedback(null); nextRound() }, 1200)

@@ -7,11 +7,11 @@ import { SimplePet } from '../../shared/components/SimplePet'
 import { DailyBox } from '../../shared/components/DailyBox'
 
 const GAMES = [
-  { id:'treasure-hunt',emoji:'Tree',label:'Forest Quest',desc:'Explore radical families',color:'#16A34A' },
-  { id:'bubble-pop',emoji:'BB',label:'Bubble Pop',desc:'Listen and pop!',color:'#1A73E8' },
-  { id:'matching',emoji:'MC',label:'Match Pairs',desc:'Connect picture to word',color:'#F9A826' },
-  { id:'writing',emoji:'WR',label:'Trace Write',desc:'Practice writing',color:'#EC4899' },
-  { id:'quiz',emoji:'QZ',label:'Quiz Time',desc:'Test your knowledge',color:'#7C3AED' },
+  { id:'treasure-hunt',emoji:'Tree',label:'汉字森林',desc:'探索字族树',color:'#16A34A' },
+  { id:'bubble-pop',emoji:'BB',label:'泡泡大战',desc:'听音戳泡泡',color:'#1A73E8' },
+  { id:'matching',emoji:'MC',label:'配对闯关',desc:'汉字配配对',color:'#F9A826' },
+  { id:'writing',emoji:'WR',label:'书写描红',desc:'练习写汉字',color:'#EC4899' },
+  { id:'quiz',emoji:'QZ',label:'小测验',desc:'测试掌握的字',color:'#7C3AED' },
 ]
 
 export function HomeScreen() {
@@ -19,7 +19,7 @@ export function HomeScreen() {
   const { name, avatar, coins, streak, checkStreak } = useUserStore()
   const { speak } = useVoice()
 
-  useEffect(() => { checkStreak(); speak('Welcome!') }, [])
+  useEffect(() => { checkStreak(); speak('欢迎!') }, [])
 
   return (
     <div style={{ display:'flex',flexDirection:'column',minHeight:'100vh',paddingBottom:80,position:'relative' }}>
@@ -30,12 +30,12 @@ export function HomeScreen() {
         <motion.h1 initial={{ opacity:0,x:-20 }} animate={{ opacity:1,x:0 }}
           className="gradient-text"
           style={{ fontFamily:'var(--font-heading)',fontSize:28,fontWeight:800 }}>
-          Magic Forest
+          魔法森林
         </motion.h1>
         <motion.div initial={{ opacity:0,x:20 }} animate={{ opacity:1,x:0 }}
           className="disney-card"
           style={{ display:'flex',alignItems:'center',gap:8,padding:'6px 16px',borderRadius:28,fontWeight:700 }}>
-          <span>Star {coins}</span>
+          <span>⭐ {coins}</span>
           <span style={{ width:36,height:36,borderRadius:'50%',background:'linear-gradient(135deg,var(--disney-gold-light),var(--disney-gold))',display:'flex',alignItems:'center',justifyContent:'center',fontSize:20 }}>{avatar}</span>
         </motion.div>
       </div>
@@ -45,20 +45,20 @@ export function HomeScreen() {
         style={{ margin:'0 16px',padding:28,borderRadius:28,marginBottom:20,position:'relative',overflow:'hidden' }}>
         <div style={{ position:'relative',zIndex:1 }}>
           <h2 style={{ fontFamily:'var(--font-heading)',fontSize:20,fontWeight:700,color:'var(--disney-charcoal)' }}>
-            Welcome back, {name}!
+            欢迎回来, {name}!
           </h2>
-          <p style={{ fontSize:14,color:'#64748B',marginTop:4 }}>Your magical learning journey continues...</p>
+          <p style={{ fontSize:14,color:'#64748B',marginTop:4 }}>继续你的魔法学习之旅吧...</p>
           <div style={{ display:'flex',gap:12,marginTop:14,fontSize:13,fontWeight:700 }}>
             <span className="disney-card" style={{ padding:'6px 14px',borderRadius:20,background:'rgba(255,255,255,0.8)',color:'var(--disney-green)' }}>Book 0/200</span>
             <span className="disney-card" style={{ padding:'6px 14px',borderRadius:20,background:'rgba(255,255,255,0.8)',color:'var(--disney-gold)' }}>Fire {streak} days</span>
           </div>
         </div>
-        <div style={{ position:'absolute',right:10,top:10,fontSize:40,opacity:0.3 }}>Star</div>
+        <div style={{ position:'absolute',right:10,top:10,fontSize:40,opacity:0.3 }}>⭐</div>
       </motion.div>
 
       <div style={{ margin:'0 16px',marginBottom:20 }}>
         <div style={{ display:'flex',justifyContent:'space-between',fontSize:13,fontWeight:600,marginBottom:6 }}>
-          <span>Daily Progress</span><span style={{ color:'var(--disney-purple)' }}>0/5</span>
+          <span>今日进度</span><span style={{ color:'var(--disney-purple)' }}>0/5</span>
         </div>
         <div style={{ height:12,background:'#F1F5F9',borderRadius:6,overflow:'hidden',boxShadow:'inset 0 2px 4px rgba(0,0,0,0.06)' }}>
           <motion.div initial={{ width:0 }} animate={{ width:'20%' }}
@@ -66,7 +66,7 @@ export function HomeScreen() {
         </div>
       </div>
 
-      <h3 style={{ fontFamily:'var(--font-heading)',fontSize:18,padding:'0 16px',marginBottom:12,color:'var(--disney-charcoal)' }}>Games</h3>
+      <h3 style={{ fontFamily:'var(--font-heading)',fontSize:18,padding:'0 16px',marginBottom:12,color:'var(--disney-charcoal)' }}>今日游戏</h3>
       <div style={{ display:'grid',gridTemplateColumns:'1fr 1fr',gap:14,padding:'0 16px' }}>
         {GAMES.map((game, i) => (
           <motion.div key={game.id}
@@ -99,10 +99,10 @@ export function HomeScreen() {
         boxShadow:'0 -4px 24px rgba(0,0,0,0.06)',zIndex:100,
       }}>
         {[
-          { icon:'Home',label:'Home',active:true,onClick:() => navigate('/') },
-          { icon:'BB',label:'Stickers',onClick:() => navigate('/rewards') },
-          { icon:'MC',label:'Badges',onClick:() => navigate('/rewards') },
-          { icon:'WR',label:'Parents',onClick:() => navigate('/parent') },
+          { icon:'首页',label:'首页',active:true,onClick:() => navigate('/') },
+          { icon:'BB',label:'贴纸',onClick:() => navigate('/rewards') },
+          { icon:'MC',label:'成就',onClick:() => navigate('/rewards') },
+          { icon:'WR',label:'家长',onClick:() => navigate('/parent') },
         ].map(item => (
           <div key={item.label} onClick={item.onClick}
             style={{ display:'flex',flexDirection:'column',alignItems:'center',gap:4,

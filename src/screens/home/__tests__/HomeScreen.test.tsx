@@ -8,20 +8,20 @@ function renderHome() { return render(<MemoryRouter><HomeScreen /></MemoryRouter
 describe('HomeScreen', () => {
   it('renders title', () => {
     renderHome()
-    expect(screen.getByText(/Magic Forest/)).toBeDefined()
+    expect(screen.getByText(/魔法森林/)).toBeDefined()
   })
   it('renders game cards', () => {
     renderHome()
-    expect(screen.getByText('Forest Quest')).toBeDefined()
-    expect(screen.getByText('Bubble Pop')).toBeDefined()
+    expect(screen.getByText('汉字森林')).toBeDefined()
+    expect(screen.getByText('泡泡大战')).toBeDefined()
   })
-  it('renders nav items', () => {
+  it('renders pairing and writing', () => {
     renderHome()
-    const homes = screen.getAllByText('Home')
-    expect(homes.length).toBeGreaterThanOrEqual(1)
+    expect(screen.getByText('配对闯关')).toBeDefined()
+    expect(screen.getByText('书写描红')).toBeDefined()
   })
-  it('shows streak', () => {
+  it('renders quiz card', () => {
     renderHome()
-    expect(screen.getByText(/Fire/)).toBeDefined()
+    expect(screen.getByText('小测验')).toBeDefined()
   })
 })

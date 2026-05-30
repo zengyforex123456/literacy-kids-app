@@ -112,7 +112,7 @@ export function TreasureHuntGame() {
         <div style={{ margin:'0 16px',minHeight:280,borderRadius:24,background:'linear-gradient(180deg,#E8F5E9,#C8E6C9)',padding:16 }}>
           <div style={{ textAlign:'center',marginBottom:8 }}>
             <span style={{ background:'white',borderRadius:16,padding:'6px 16px',fontSize:14,fontWeight:600 }}>
-              {complete ? 'ALL FOUND!' : 'Found '+count+'/'+family.members.length}
+              {complete ? '全部找到!' : '发现 '+count+'/'+family.members.length}
             </span>
           </div>
           <div style={{ display:'flex',flexWrap:'wrap',gap:10,justifyContent:'center' }}>
@@ -206,7 +206,7 @@ export function TreasureHuntGame() {
                 onClick={() => handleEvo(e)}
                 style={{ background:fnd?'#FFF8E1':'white',borderRadius:20,padding:16,cursor:fnd?'default':'pointer',boxShadow:fnd?'none':'var(--shadow-sm)',border:fnd?'2px solid var(--bbaby-yellow)':'2px solid transparent' }}>
                 <div style={{ display:'flex',alignItems:'center',justifyContent:'space-around' }}>
-                  {[{ label:'Oracle',val:e.oracle },{ label:'Bronze',val:e.bronze },{ label:'Seal',val:e.seal }].map(stage => (
+                  {[{ label:'甲骨文',val:e.oracle },{ label:'金文',val:e.bronze },{ label:'篆书',val:e.seal }].map(stage => (
                     <div key={stage.label} style={{ textAlign:'center' }}>
                       <div style={{ fontSize:22 }}>{stage.val}</div>
                       <div style={{ fontSize:10,color:'#999' }}>{stage.label}</div>

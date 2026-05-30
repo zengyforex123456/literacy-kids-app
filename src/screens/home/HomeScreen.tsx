@@ -52,7 +52,7 @@ export function HomeScreen() {
           </h2>
           <p style={{ fontSize:14,color:'#64748B',marginTop:4 }}>继续你的魔法学习之旅吧...</p>
           <div style={{ display:'flex',gap:12,marginTop:14,fontSize:13,fontWeight:700 }}>
-            <span className="disney-card" style={{ padding:'6px 14px',borderRadius:20,background:'rgba(255,255,255,0.8)',color:'var(--disney-green)' }}>Book 0/200</span>
+            <span className="disney-card" style={{ padding:'6px 14px',borderRadius:20,background:'rgba(255,255,255,0.8)',color:'var(--disney-green)' }}>📚 已学 {learnedCount}/200</span>
             <span className="disney-card" style={{ padding:'6px 14px',borderRadius:20,background:'rgba(255,255,255,0.8)',color:'var(--disney-gold)' }}>Fire {streak} days</span>
           </div>
         </div>

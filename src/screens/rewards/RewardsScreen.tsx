@@ -1,4 +1,6 @@
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
+import { CollectionWall } from './CollectionWall'
 import { motion } from 'framer-motion'
 import { useUserStore } from '../../shared/stores/userStore'
 
@@ -21,6 +23,7 @@ const ACHIEVEMENTS = [
 ]
 
 export function RewardsScreen() {
+const [showWall, setShowWall] = useState(false)
   const navigate = useNavigate()
   const { coins, streak } = useUserStore()
 

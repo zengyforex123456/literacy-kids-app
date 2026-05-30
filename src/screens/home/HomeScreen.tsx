@@ -2,6 +2,9 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useUserStore } from '../../shared/stores/userStore'
+import { DailyBox } from "../../shared/components/DailyBox"
+import { SeniorModeToggle } from "../../shared/components/SeniorMode"
+import { FreeTrialBanner } from "../../shared/components/FreeTrialBanner"
 import { useVoice } from '../../shared/hooks/useVoice'
 
 const GAMES = [
@@ -9,6 +12,7 @@ const GAMES = [
   { id: 'bubble-pop', icon: '🫧', label: '泡泡大战', desc: '听音戳泡泡', color: '#4ECDC4' },
   { id: 'matching', icon: '🎯', label: '配对闯关', desc: '图文连连看', color: '#FF9F43' },
   { id: 'writing', icon: '✍️', label: '书写描红', desc: '练习写汉字', color: '#FF9FF3' },
+{ id: 'quiz', icon: 'Test', label: 'Quiz', desc: 'Test your knowledge', color: '#A66CFF' },
 ]
 
 export function HomeScreen() {
@@ -121,3 +125,4 @@ export function HomeScreen() {
     </div>
   )
 }
+

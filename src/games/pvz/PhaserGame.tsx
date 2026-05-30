@@ -31,7 +31,7 @@ export function PhaserPVZGame() {
         plants: any[]; zombies: any[]; bullets: any[]; suns: any[]
         grid: any[][]; ro:number; co:number; cw:number; ch:number; sx:number; sy:number
         sun:number; score:number; gameEnd:boolean; selectedPlant:any; wave:number
-        cooldowns:Record<string,number>; words:string[]
+        cooldowns:Record<string,number>={}; words:string[]=[]
 
         constructor() { super('game') }
 
@@ -133,7 +133,7 @@ export function PhaserPVZGame() {
 
           // Update cooldowns
           for(const k in this.cooldowns){if(this.cooldowns[k]>0)this.cooldowns[k]-=delta}
-          this.plantCards.forEach(card=>{const cd=Math.max(0,this.cooldowns[card.plant.id]);const pct=this.cooldowns[card.plant.id]>0?Math.min(1,this.cooldowns[card.plant.id]/card.plant.cd):0;card.cd.setAlpha(pct*0.6);if(pct>0){card.cdTxt.setText(Math.ceil(this.cooldowns[card.plant.id]/1000)+'s')}else{card.cdTxt.setText('')}})
+          this.plantCards.forEach((card:any)=>{const cd=Math.max(0,this.cooldowns[card.plant.id]);const pct=this.cooldowns[card.plant.id]>0?Math.min(1,this.cooldowns[card.plant.id]/card.plant.cd):0;card.cd.setAlpha(pct*0.6);if(pct>0){card.cdTxt.setText(Math.ceil(this.cooldowns[card.plant.id]/1000)+'s')}else{card.cdTxt.setText('')}})
 
           // Update zombies
           for(let zi=this.zombies.length-1;zi>=0;zi--){

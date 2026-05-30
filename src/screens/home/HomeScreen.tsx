@@ -7,11 +7,11 @@ import { SimplePet } from '../../shared/components/SimplePet'
 import { DailyBox } from '../../shared/components/DailyBox'
 
 const GAMES = [
-  { id:'treasure-hunt',emoji:'Tree',label:'汉字森林',desc:'探索字族树',color:'#16A34A' },
-  { id:'bubble-pop',emoji:'BB',label:'泡泡大战',desc:'听音戳泡泡',color:'#1A73E8' },
-  { id:'matching',emoji:'MC',label:'配对闯关',desc:'汉字配配对',color:'#F9A826' },
-  { id:'writing',emoji:'WR',label:'书写描红',desc:'练习写汉字',color:'#EC4899' },
-  { id:'quiz',emoji:'QZ',label:'小测验',desc:'测试掌握的字',color:'#7C3AED' },
+  { id:'treasure-hunt',emoji:'🌳',label:'汉字森林',desc:'探索字族树',color:'#16A34A' },
+  { id:'bubble-pop',emoji:'🫧',label:'泡泡大战',desc:'听音戳泡泡',color:'#1A73E8' },
+  { id:'matching',emoji:'🎯',label:'配对闯关',desc:'汉字配配对',color:'#F9A826' },
+  { id:'writing',emoji:'✍️',label:'书写描红',desc:'练习写汉字',color:'#EC4899' },
+  { id:'quiz',emoji:'🧠',label:'小测验',desc:'测试掌握的字',color:'#7C3AED' },
 ]
 
 export function HomeScreen() {
@@ -100,9 +100,9 @@ export function HomeScreen() {
       }}>
         {[
           { icon:'首页',label:'首页',active:true,onClick:() => navigate('/') },
-          { icon:'BB',label:'贴纸',onClick:() => navigate('/rewards') },
-          { icon:'MC',label:'成就',onClick:() => navigate('/rewards') },
-          { icon:'WR',label:'家长',onClick:() => navigate('/parent') },
+          { icon:'🎒',label:'贴纸',onClick:() => navigate('/rewards') },
+          { icon:'🏆',label:'成就',onClick:() => navigate('/rewards') },
+          { icon:'👨‍👩‍👧',label:'家长',onClick:() => navigate('/parent') },
         ].map(item => (
           <div key={item.label} onClick={item.onClick}
             style={{ display:'flex',flexDirection:'column',alignItems:'center',gap:4,

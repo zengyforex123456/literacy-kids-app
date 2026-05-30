@@ -1,0 +1,883 @@
+[
+  {
+    "word_id": "0001",
+    "character": "一",
+    "pinyin": "yi",
+    "radical": "一",
+    "stroke_count": 1,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "一个",
+      "一天"
+    ],
+    "sentence_example": "我有一个苹果。",
+    "image_hint": "一",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0002",
+    "character": "二",
+    "pinyin": "er",
+    "radical": "二",
+    "stroke_count": 2,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "二月",
+      "第二"
+    ],
+    "sentence_example": "我有两本书。",
+    "image_hint": "二",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0003",
+    "character": "三",
+    "pinyin": "san",
+    "radical": "一",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "三月"
+    ],
+    "sentence_example": "三只小鸟在飞。",
+    "image_hint": "三",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0004",
+    "character": "四",
+    "pinyin": "si",
+    "radical": "囗",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "四月"
+    ],
+    "sentence_example": "桌子有四支笔。",
+    "image_hint": "四",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0005",
+    "character": "五",
+    "pinyin": "wu",
+    "radical": "二",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "五月"
+    ],
+    "sentence_example": "五星红旗。",
+    "image_hint": "五",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0006",
+    "character": "六",
+    "pinyin": "liu",
+    "radical": "八",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "六月"
+    ],
+    "sentence_example": "我家六口人。",
+    "image_hint": "六",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0007",
+    "character": "七",
+    "pinyin": "qi",
+    "radical": "一",
+    "stroke_count": 2,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "七月"
+    ],
+    "sentence_example": "一周七天。",
+    "image_hint": "七",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0008",
+    "character": "八",
+    "pinyin": "ba",
+    "radical": "八",
+    "stroke_count": 2,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "八月"
+    ],
+    "sentence_example": "四面八方。",
+    "image_hint": "八",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0009",
+    "character": "九",
+    "pinyin": "jiu",
+    "radical": "丿",
+    "stroke_count": 2,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "九月"
+    ],
+    "sentence_example": "九月开学。",
+    "image_hint": "九",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0010",
+    "character": "十",
+    "pinyin": "shi",
+    "radical": "十",
+    "stroke_count": 2,
+    "grade_level": 1,
+    "word_family": "数字",
+    "related_words": [
+      "十分"
+    ],
+    "sentence_example": "我得了十分。",
+    "image_hint": "十",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0011",
+    "character": "人",
+    "pinyin": "ren",
+    "radical": "人",
+    "stroke_count": 2,
+    "grade_level": 1,
+    "word_family": "人称",
+    "related_words": [
+      "大人",
+      "好人"
+    ],
+    "sentence_example": "我是中国人。",
+    "image_hint": "人",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0012",
+    "character": "口",
+    "pinyin": "kou",
+    "radical": "口",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "身体",
+    "related_words": [
+      "口水",
+      "开口"
+    ],
+    "sentence_example": "张口说话。",
+    "image_hint": "口",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0013",
+    "character": "手",
+    "pinyin": "shou",
+    "radical": "手",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "身体",
+    "related_words": [
+      "手机",
+      "左手"
+    ],
+    "sentence_example": "用手写字。",
+    "image_hint": "手",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0014",
+    "character": "大",
+    "pinyin": "da",
+    "radical": "大",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "比较",
+    "related_words": [
+      "大人",
+      "大小"
+    ],
+    "sentence_example": "大象很大。",
+    "image_hint": "大",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0015",
+    "character": "小",
+    "pinyin": "xiao",
+    "radical": "小",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "比较",
+    "related_words": [
+      "小孩",
+      "小心"
+    ],
+    "sentence_example": "蚂蚁很小。",
+    "image_hint": "小",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0016",
+    "character": "天",
+    "pinyin": "tian",
+    "radical": "大",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "白天",
+      "天空"
+    ],
+    "sentence_example": "天气真好。",
+    "image_hint": "天",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0017",
+    "character": "地",
+    "pinyin": "di",
+    "radical": "土",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "大地"
+    ],
+    "sentence_example": "大地开满花。",
+    "image_hint": "地",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0018",
+    "character": "日",
+    "pinyin": "ri",
+    "radical": "日",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "日子",
+      "日出"
+    ],
+    "sentence_example": "好日子。",
+    "image_hint": "日",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0019",
+    "character": "月",
+    "pinyin": "yue",
+    "radical": "月",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "月亮"
+    ],
+    "sentence_example": "月儿圆。",
+    "image_hint": "月",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0020",
+    "character": "水",
+    "pinyin": "shui",
+    "radical": "水",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "水果",
+      "喝水"
+    ],
+    "sentence_example": "多喝水。",
+    "image_hint": "水",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0021",
+    "character": "火",
+    "pinyin": "huo",
+    "radical": "火",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "火车",
+      "大火"
+    ],
+    "sentence_example": "不玩火。",
+    "image_hint": "火",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0022",
+    "character": "山",
+    "pinyin": "shan",
+    "radical": "山",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "大山"
+    ],
+    "sentence_example": "远处有高山。",
+    "image_hint": "山",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0023",
+    "character": "石",
+    "pinyin": "shi",
+    "radical": "石",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "石头"
+    ],
+    "sentence_example": "路边大石头。",
+    "image_hint": "石",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0024",
+    "character": "田",
+    "pinyin": "tian",
+    "radical": "田",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "田地"
+    ],
+    "sentence_example": "农民在田里。",
+    "image_hint": "田",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0025",
+    "character": "土",
+    "pinyin": "tu",
+    "radical": "土",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "土地",
+      "土豆"
+    ],
+    "sentence_example": "土地长庄稼。",
+    "image_hint": "土",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0026",
+    "character": "木",
+    "pinyin": "mu",
+    "radical": "木",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "树木"
+    ],
+    "sentence_example": "森林有树木。",
+    "image_hint": "木",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0027",
+    "character": "禾",
+    "pinyin": "he",
+    "radical": "禾",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "禾苗"
+    ],
+    "sentence_example": "禾苗在田里。",
+    "image_hint": "禾",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0028",
+    "character": "花",
+    "pinyin": "hua",
+    "radical": "艹",
+    "stroke_count": 7,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "花园",
+      "开花"
+    ],
+    "sentence_example": "公园开满花。",
+    "image_hint": "花",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0029",
+    "character": "草",
+    "pinyin": "cao",
+    "radical": "艹",
+    "stroke_count": 9,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "草地",
+      "小草"
+    ],
+    "sentence_example": "草地奔跑。",
+    "image_hint": "草",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0030",
+    "character": "竹",
+    "pinyin": "zhu",
+    "radical": "竹",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "自然",
+    "related_words": [
+      "竹子"
+    ],
+    "sentence_example": "熊猫爱吃竹。",
+    "image_hint": "竹",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0031",
+    "character": "鸟",
+    "pinyin": "niao",
+    "radical": "鸟",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "动物",
+    "related_words": [
+      "小鸟",
+      "飞鸟"
+    ],
+    "sentence_example": "树上有小鸟。",
+    "image_hint": "鸟",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0032",
+    "character": "鱼",
+    "pinyin": "yu",
+    "radical": "鱼",
+    "stroke_count": 8,
+    "grade_level": 1,
+    "word_family": "动物",
+    "related_words": [
+      "小鱼",
+      "钓鱼"
+    ],
+    "sentence_example": "河里有鱼。",
+    "image_hint": "鱼",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0033",
+    "character": "虫",
+    "pinyin": "chong",
+    "radical": "虫",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "动物",
+    "related_words": [
+      "虫子"
+    ],
+    "sentence_example": "叶上有小虫。",
+    "image_hint": "虫",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0034",
+    "character": "马",
+    "pinyin": "ma",
+    "radical": "马",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "动物",
+    "related_words": [
+      "马上",
+      "马路"
+    ],
+    "sentence_example": "我马上就来。",
+    "image_hint": "马",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0035",
+    "character": "牛",
+    "pinyin": "niu",
+    "radical": "牛",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "动物",
+    "related_words": [
+      "牛奶",
+      "牛肉"
+    ],
+    "sentence_example": "黄牛在耕地。",
+    "image_hint": "牛",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0036",
+    "character": "羊",
+    "pinyin": "yang",
+    "radical": "羊",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "动物",
+    "related_words": [
+      "山羊",
+      "羊毛"
+    ],
+    "sentence_example": "草原成群的羊。",
+    "image_hint": "羊",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0037",
+    "character": "上",
+    "pinyin": "shang",
+    "radical": "一",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "上学",
+      "上午"
+    ],
+    "sentence_example": "我每天上学。",
+    "image_hint": "上",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0038",
+    "character": "下",
+    "pinyin": "xia",
+    "radical": "一",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "下午",
+      "下课"
+    ],
+    "sentence_example": "下午放学。",
+    "image_hint": "下",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0039",
+    "character": "左",
+    "pinyin": "zuo",
+    "radical": "工",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "左手",
+      "左边"
+    ],
+    "sentence_example": "左手扶碗。",
+    "image_hint": "左",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0040",
+    "character": "右",
+    "pinyin": "you",
+    "radical": "口",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "右手",
+      "右边"
+    ],
+    "sentence_example": "右边是操场。",
+    "image_hint": "右",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0041",
+    "character": "前",
+    "pinyin": "qian",
+    "radical": "丷",
+    "stroke_count": 9,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "前面"
+    ],
+    "sentence_example": "学校在我家前。",
+    "image_hint": "前",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0042",
+    "character": "后",
+    "pinyin": "hou",
+    "radical": "口",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "后面",
+      "以后"
+    ],
+    "sentence_example": "教室后黑板。",
+    "image_hint": "后",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0043",
+    "character": "里",
+    "pinyin": "li",
+    "radical": "里",
+    "stroke_count": 7,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "里面",
+      "家里"
+    ],
+    "sentence_example": "书包里装书。",
+    "image_hint": "里",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0044",
+    "character": "外",
+    "pinyin": "wai",
+    "radical": "夕",
+    "stroke_count": 5,
+    "grade_level": 1,
+    "word_family": "方位",
+    "related_words": [
+      "外面",
+      "外国"
+    ],
+    "sentence_example": "门外有大树。",
+    "image_hint": "外",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0045",
+    "character": "多",
+    "pinyin": "duo",
+    "radical": "夕",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "比较",
+    "related_words": [
+      "多少",
+      "许多"
+    ],
+    "sentence_example": "公园很多花。",
+    "image_hint": "多",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0046",
+    "character": "少",
+    "pinyin": "shao",
+    "radical": "小",
+    "stroke_count": 4,
+    "grade_level": 1,
+    "word_family": "比较",
+    "related_words": [
+      "少数"
+    ],
+    "sentence_example": "今天人很少。",
+    "image_hint": "少",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0047",
+    "character": "好",
+    "pinyin": "hao",
+    "radical": "女",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "品德",
+    "related_words": [
+      "好人",
+      "美好"
+    ],
+    "sentence_example": "天气好。",
+    "image_hint": "好",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0048",
+    "character": "学",
+    "pinyin": "xue",
+    "radical": "子",
+    "stroke_count": 8,
+    "grade_level": 1,
+    "word_family": "学习",
+    "related_words": [
+      "学习",
+      "上学"
+    ],
+    "sentence_example": "我爱学习。",
+    "image_hint": "学",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0049",
+    "character": "习",
+    "pinyin": "xi",
+    "radical": "乙",
+    "stroke_count": 3,
+    "grade_level": 1,
+    "word_family": "学习",
+    "related_words": [
+      "练习",
+      "复习"
+    ],
+    "sentence_example": "回家复习。",
+    "image_hint": "习",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  },
+  {
+    "word_id": "0050",
+    "character": "字",
+    "pinyin": "zi",
+    "radical": "子",
+    "stroke_count": 6,
+    "grade_level": 1,
+    "word_family": "学习",
+    "related_words": [
+      "汉字",
+      "写字"
+    ],
+    "sentence_example": "我会写汉字。",
+    "image_hint": "字",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "1A"
+  }
+]

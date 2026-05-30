@@ -66,3 +66,8 @@ body {
   0% { transform: scale(1); opacity: 1; }
   100% { transform: scale(2); opacity: 0; }
 }
+
+@keyframes star-burst {
+  0% { opacity: 1; transform: rotate(var(--angle, 0deg)) translateX(0) scale(1); }
+  100% { opacity: 0; transform: rotate(var(--angle, 0deg)) translateX(80px) scale(0); }
+}

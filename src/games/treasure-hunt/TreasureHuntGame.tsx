@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useGameProgressStore } from '../../shared/stores/gameProgressStore'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useVoice } from '../../shared/hooks/useVoice'
 import { useSound } from '../../shared/hooks/useSound'
@@ -49,6 +50,7 @@ export function TreasureHuntGame() {
     speak(char)
     addCoins(1)
     setFound(new Set([...found, char]))
+        useGameProgressStore.getState().addLearnedChars([char])
     setSparkles(Array.from({length:8}, (_,i)=>({x:x+(Math.random()-0.5)*80,y:y+(Math.random()-0.5)*80})))
     setShowConfetti(true)
     setHint('太棒了! +1⭐')

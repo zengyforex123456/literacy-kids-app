@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useUserStore } from '../../shared/stores/userStore'
+import { useGameProgressStore } from '../../shared/stores/gameProgressStore'
 import { useVoice } from '../../shared/hooks/useVoice'
 import { TwemojiImg } from "../../shared/components/TwemojiImg"
 import { SimplePet } from '../../shared/components/SimplePet'
@@ -18,6 +19,7 @@ const GAMES = [
 export function HomeScreen() {
   const navigate = useNavigate()
   const { name, avatar, coins, streak, checkStreak } = useUserStore()
+  const learnedCount = useGameProgressStore(s => s.learnedChars.length)
   const { speak } = useVoice()
 
   useEffect(() => { checkStreak(); speak('欢迎!') }, [])

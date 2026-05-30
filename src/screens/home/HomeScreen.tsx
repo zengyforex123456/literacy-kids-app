@@ -7,11 +7,11 @@ import { SimplePet } from '../../shared/components/SimplePet'
 import { DailyBox } from '../../shared/components/DailyBox'
 
 const GAMES = [
-  { id:'treasure-hunt',emoji:'🌳',label:'汉字森林',desc:'探索字族树',color:'#16A34A' },
-  { id:'bubble-pop',emoji:'🫧',label:'泡泡大战',desc:'听音戳泡泡',color:'#1A73E8' },
-  { id:'matching',emoji:'🎯',label:'配对闯关',desc:'汉字配配对',color:'#F9A826' },
-  { id:'writing',emoji:'✍️',label:'书写描红',desc:'练习写汉字',color:'#EC4899' },
-  { id:'quiz',emoji:'🧠',label:'小测验',desc:'测试掌握的字',color:'#7C3AED' },
+  { id:'treasure-hunt',emoji:'森',label:'汉字森林',desc:'探索字族树',color:'#16A34A' },
+  { id:'bubble-pop',emoji:'泡',label:'泡泡大战',desc:'听音戳泡泡',color:'#1A73E8' },
+  { id:'matching',emoji:'配',label:'配对闯关',desc:'汉字配配对',color:'#F9A826' },
+  { id:'writing',emoji:'写',label:'书写描红',desc:'练习写汉字',color:'#EC4899' },
+  { id:'quiz',emoji:'测',label:'小测验',desc:'测试掌握的字',color:'#7C3AED' },
 ]
 
 export function HomeScreen() {
@@ -35,7 +35,7 @@ export function HomeScreen() {
         <motion.div initial={{ opacity:0,x:20 }} animate={{ opacity:1,x:0 }}
           className="disney-card"
           style={{ display:'flex',alignItems:'center',gap:8,padding:'6px 16px',borderRadius:28,fontWeight:700 }}>
-          <span>⭐ {coins}</span>
+          <span>分 {coins}</span>
           <span style={{ width:36,height:36,borderRadius:'50%',background:'linear-gradient(135deg,var(--disney-gold-light),var(--disney-gold))',display:'flex',alignItems:'center',justifyContent:'center',fontSize:20 }}>{avatar}</span>
         </motion.div>
       </div>
@@ -53,7 +53,7 @@ export function HomeScreen() {
             <span className="disney-card" style={{ padding:'6px 14px',borderRadius:20,background:'rgba(255,255,255,0.8)',color:'var(--disney-gold)' }}>Fire {streak} days</span>
           </div>
         </div>
-        <div style={{ position:'absolute',right:10,top:10,fontSize:40,opacity:0.3 }}>⭐</div>
+        <div style={{ position:'absolute',right:10,top:10,fontSize:40,opacity:0.3 }}>分</div>
       </motion.div>
 
       <div style={{ margin:'0 16px',marginBottom:20 }}>

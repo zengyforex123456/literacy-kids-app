@@ -14,11 +14,11 @@ import { EyeCareOverlay } from '../shared/components/EyeCareOverlay'
 import { seedWords } from '../shared/db/repository'
 
 const QUIZ_WORDS = [
-  { chinese:'山',pinyin:'shan',emoji:'⛰️' },
-  { chinese:'水',pinyin:'shui',emoji:'💧' },
-  { chinese:'火',pinyin:'huo',emoji:'🔥' },
-  { chinese:'木',pinyin:'mu',emoji:'🌳' },
-  { chinese:'人',pinyin:'ren',emoji:'🧍' },
+  { chinese:'山',pinyin:'shan',emoji:'山' },
+  { chinese:'水',pinyin:'shui',emoji:'水' },
+  { chinese:'火',pinyin:'huo',emoji:'火' },
+  { chinese:'木',pinyin:'mu',emoji:'木' },
+  { chinese:'人',pinyin:'ren',emoji:'人' },
 ]
 
 export default function App() {

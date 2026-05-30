@@ -82,7 +82,7 @@ export function BubblePopGame() {
       <div style={{ display:'flex',justifyContent:'space-between',alignItems:'center',padding:'12px 16px' }}>
         <button onClick={() => navigate('/')} style={{ fontSize:24,border:'none',background:'none',cursor:'pointer' }}>←</button>
         <span style={{ fontFamily:'var(--font-heading)',fontSize:20,color:'var(--bbaby-blue)' }}>🫧 泡泡大战</span>
-        <span style={{ fontWeight:700,fontSize:18,background:'white',padding:'6px 14px',borderRadius:16,boxShadow:'var(--shadow-sm)' }}>⭐ {score}</span>
+        <span style={{ fontWeight:700,fontSize:18,background:'white',padding:'6px 14px',borderRadius:16,boxShadow:'var(--shadow-sm)' }}>分 {score}</span>
       </div>
 
       <div style={{

@@ -1,0 +1,7 @@
+[
+  {"id":1,"name":"后院草坪","words":["一","二","三","四","五"],"zombies":5,"plants":["pea","sun"]},
+  {"id":2,"name":"迷雾泳池","words":["上","下","左","右","中"],"zombies":8,"plants":["pea","sun","nut"]},
+  {"id":3,"name":"屋顶之战","words":["日","月","水","火","山"],"zombies":10,"plants":["pea","sun","nut","chili"]},
+  {"id":4,"name":"木之森","words":["木","林","森","树","松"],"zombies":12,"plants":["pea","sun","nut","chili"]},
+  {"id":5,"name":"Boss-巨人","words":["大","小","多","少","好"],"zombies":15,"plants":["pea","sun","nut","chili","snow"]}
+]

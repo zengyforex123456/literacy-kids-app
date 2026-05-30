@@ -1,11 +1,11 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { useEffect } from 'react'
 import { HomeScreen } from '../screens/home/HomeScreen'
-import { TreasureHuntGame } from '../games/treasure-hunt/TreasureHuntGame'
-import { BubblePopGame } from '../games/bubble-pop/BubblePopGame'
-import { MatchingGame } from '../games/matching/MatchingGame'
-import { WritingGame } from '../games/writing/WritingGame'
-import { QuizGame } from '../games/quiz/QuizGame'
+import { TravelCourse } from '../courses/travel/TravelCourse'
+import { ReadAloudCourse } from '../courses/read-aloud/ReadAloudCourse'
+import { BridgeCourse } from '../courses/bridge/BridgeCourse'
+import { DigCourse } from '../courses/dig/DigCourse'
+import { BrainCourse } from '../courses/brain/BrainCourse'
 import { RewardsScreen } from '../screens/rewards/RewardsScreen'
 import { ParentScreen } from '../screens/parent/ParentScreen'
 import { ReportScreen } from '../screens/report/ReportScreen'
@@ -19,9 +19,6 @@ const QUIZ_WORDS = [
   { chinese:'火',pinyin:'huo',emoji:'Fire' },
   { chinese:'木',pinyin:'mu',emoji:'Tree' },
   { chinese:'人',pinyin:'ren',emoji:'Person' },
-  { chinese:'大',pinyin:'da',emoji:'Big' },
-  { chinese:'小',pinyin:'xiao',emoji:'Small' },
-  { chinese:'口',pinyin:'kou',emoji:'Mouth' },
 ]
 
 export default function App() {
@@ -33,11 +30,11 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/onboarding" element={<OnboardingScreen />} />
-        <Route path="/game/treasure-hunt" element={<TreasureHuntGame />} />
-        <Route path="/game/bubble-pop" element={<BubblePopGame />} />
-        <Route path="/game/matching" element={<MatchingGame />} />
-        <Route path="/game/writing" element={<WritingGame />} />
-        <Route path="/game/quiz" element={<QuizGame words={QUIZ_WORDS} onComplete={(c,t) => alert(c+'/'+t+' correct!')} />} />
+        <Route path="/game/treasure-hunt" element={<TravelCourse />} />
+        <Route path="/game/bubble-pop" element={<ReadAloudCourse />} />
+        <Route path="/game/matching" element={<BridgeCourse />} />
+        <Route path="/game/writing" element={<DigCourse />} />
+        <Route path="/game/quiz" element={<BrainCourse words={QUIZ_WORDS} onComplete={(c:number,t:number) => alert(c+'/'+t+' correct!')} />} />
         <Route path="/rewards" element={<RewardsScreen />} />
         <Route path="/parent" element={<ParentScreen />} />
         <Route path="/report" element={<ReportScreen />} />

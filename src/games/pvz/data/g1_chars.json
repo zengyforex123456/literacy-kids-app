@@ -879,5 +879,2702 @@
     "review_dates": [],
     "mastery_level": 0,
     "unit": "1A"
+  },
+  {
+    "word_id": "0051",
+    "character": "爸",
+    "pinyin": "ba",
+    "radical": "父",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "爸爸",
+      "老爸"
+    ],
+    "sentence_example": "爸爸带我去公园。",
+    "image_hint": "爸",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0052",
+    "character": "妈",
+    "pinyin": "ma",
+    "radical": "女",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "妈妈",
+      "老妈"
+    ],
+    "sentence_example": "妈妈做的饭好吃。",
+    "image_hint": "妈",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0053",
+    "character": "哥",
+    "pinyin": "ge",
+    "radical": "口",
+    "stroke_count": 10,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "哥哥",
+      "大哥"
+    ],
+    "sentence_example": "哥哥比我高。",
+    "image_hint": "哥",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0054",
+    "character": "姐",
+    "pinyin": "jie",
+    "radical": "女",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "姐姐",
+      "大姐"
+    ],
+    "sentence_example": "姐姐在看书。",
+    "image_hint": "姐",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0055",
+    "character": "弟",
+    "pinyin": "di",
+    "radical": "弓",
+    "stroke_count": 7,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "弟弟",
+      "小弟"
+    ],
+    "sentence_example": "弟弟在睡觉。",
+    "image_hint": "弟",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0056",
+    "character": "妹",
+    "pinyin": "mei",
+    "radical": "女",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "妹妹",
+      "小妹"
+    ],
+    "sentence_example": "妹妹笑了。",
+    "image_hint": "妹",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0057",
+    "character": "爷",
+    "pinyin": "ye",
+    "radical": "父",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "爷爷",
+      "老爷"
+    ],
+    "sentence_example": "爷爷讲故事。",
+    "image_hint": "爷",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0058",
+    "character": "奶",
+    "pinyin": "nai",
+    "radical": "女",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "家人",
+    "related_words": [
+      "奶奶",
+      "牛奶"
+    ],
+    "sentence_example": "奶奶织毛衣。",
+    "image_hint": "奶",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0059",
+    "character": "朋",
+    "pinyin": "peng",
+    "radical": "月",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "社交",
+    "related_words": [
+      "朋友",
+      "亲朋"
+    ],
+    "sentence_example": "我们是好朋友。",
+    "image_hint": "朋",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0060",
+    "character": "友",
+    "pinyin": "you",
+    "radical": "又",
+    "stroke_count": 4,
+    "grade_level": 2,
+    "word_family": "社交",
+    "related_words": [
+      "朋友",
+      "好友"
+    ],
+    "sentence_example": "友谊地久天长。",
+    "image_hint": "友",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0061",
+    "character": "老",
+    "pinyin": "lao",
+    "radical": "耂",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "称谓",
+    "related_words": [
+      "老师",
+      "老人"
+    ],
+    "sentence_example": "老师辛苦了。",
+    "image_hint": "老",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0062",
+    "character": "师",
+    "pinyin": "shi",
+    "radical": "巾",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "称谓",
+    "related_words": [
+      "老师",
+      "师傅"
+    ],
+    "sentence_example": "尊敬师长。",
+    "image_hint": "师",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0063",
+    "character": "同",
+    "pinyin": "tong",
+    "radical": "冂",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "社交",
+    "related_words": [
+      "同学",
+      "相同"
+    ],
+    "sentence_example": "我们是同学。",
+    "image_hint": "同",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0064",
+    "character": "春",
+    "pinyin": "chun",
+    "radical": "日",
+    "stroke_count": 9,
+    "grade_level": 2,
+    "word_family": "季节",
+    "related_words": [
+      "春天",
+      "春季"
+    ],
+    "sentence_example": "春天来了。",
+    "image_hint": "春",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0065",
+    "character": "夏",
+    "pinyin": "xia",
+    "radical": "夊",
+    "stroke_count": 10,
+    "grade_level": 2,
+    "word_family": "季节",
+    "related_words": [
+      "夏天",
+      "夏季"
+    ],
+    "sentence_example": "夏天很热。",
+    "image_hint": "夏",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0066",
+    "character": "秋",
+    "pinyin": "qiu",
+    "radical": "禾",
+    "stroke_count": 9,
+    "grade_level": 2,
+    "word_family": "季节",
+    "related_words": [
+      "秋天",
+      "秋季"
+    ],
+    "sentence_example": "秋天落叶。",
+    "image_hint": "秋",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0067",
+    "character": "冬",
+    "pinyin": "dong",
+    "radical": "夂",
+    "stroke_count": 5,
+    "grade_level": 2,
+    "word_family": "季节",
+    "related_words": [
+      "冬天",
+      "冬季"
+    ],
+    "sentence_example": "冬天下雪。",
+    "image_hint": "冬",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0068",
+    "character": "冷",
+    "pinyin": "leng",
+    "radical": "冫",
+    "stroke_count": 7,
+    "grade_level": 2,
+    "word_family": "感觉",
+    "related_words": [
+      "寒冷",
+      "冰冷"
+    ],
+    "sentence_example": "冬天很冷。",
+    "image_hint": "冷",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0069",
+    "character": "热",
+    "pinyin": "re",
+    "radical": "灬",
+    "stroke_count": 10,
+    "grade_level": 2,
+    "word_family": "感觉",
+    "related_words": [
+      "炎热",
+      "热闹"
+    ],
+    "sentence_example": "夏天很热。",
+    "image_hint": "热",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0070",
+    "character": "风",
+    "pinyin": "feng",
+    "radical": "风",
+    "stroke_count": 4,
+    "grade_level": 2,
+    "word_family": "自然",
+    "related_words": [
+      "刮风",
+      "大风"
+    ],
+    "sentence_example": "春风来了。",
+    "image_hint": "风",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0071",
+    "character": "雨",
+    "pinyin": "yu",
+    "radical": "雨",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "自然",
+    "related_words": [
+      "下雨",
+      "雨水"
+    ],
+    "sentence_example": "外面下雨了。",
+    "image_hint": "雨",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0072",
+    "character": "雪",
+    "pinyin": "xue",
+    "radical": "雨",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "自然",
+    "related_words": [
+      "下雪",
+      "雪花"
+    ],
+    "sentence_example": "下雪了堆雪人。",
+    "image_hint": "雪",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0073",
+    "character": "云",
+    "pinyin": "yun",
+    "radical": "二",
+    "stroke_count": 4,
+    "grade_level": 2,
+    "word_family": "自然",
+    "related_words": [
+      "白云",
+      "乌云"
+    ],
+    "sentence_example": "天上白云飘。",
+    "image_hint": "云",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0074",
+    "character": "阳",
+    "pinyin": "yang",
+    "radical": "阝",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "自然",
+    "related_words": [
+      "太阳",
+      "阳光"
+    ],
+    "sentence_example": "太阳出来了。",
+    "image_hint": "阳",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0075",
+    "character": "光",
+    "pinyin": "guang",
+    "radical": "儿",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "自然",
+    "related_words": [
+      "阳光",
+      "光明"
+    ],
+    "sentence_example": "一束光。",
+    "image_hint": "光",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0076",
+    "character": "红",
+    "pinyin": "hong",
+    "radical": "纟",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "颜色",
+    "related_words": [
+      "红色",
+      "红旗"
+    ],
+    "sentence_example": "红领巾。",
+    "image_hint": "红",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0077",
+    "character": "黄",
+    "pinyin": "huang",
+    "radical": "黄",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "颜色",
+    "related_words": [
+      "黄色",
+      "金黄"
+    ],
+    "sentence_example": "黄色小鸡。",
+    "image_hint": "黄",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0078",
+    "character": "蓝",
+    "pinyin": "lan",
+    "radical": "艹",
+    "stroke_count": 13,
+    "grade_level": 2,
+    "word_family": "颜色",
+    "related_words": [
+      "蓝色",
+      "蓝天"
+    ],
+    "sentence_example": "蓝蓝的天空。",
+    "image_hint": "蓝",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0079",
+    "character": "绿",
+    "pinyin": "lv",
+    "radical": "纟",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "颜色",
+    "related_words": [
+      "绿色",
+      "绿叶"
+    ],
+    "sentence_example": "绿绿的草地。",
+    "image_hint": "绿",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0080",
+    "character": "黑",
+    "pinyin": "hei",
+    "radical": "黑",
+    "stroke_count": 12,
+    "grade_level": 2,
+    "word_family": "颜色",
+    "related_words": [
+      "黑色",
+      "黑暗"
+    ],
+    "sentence_example": "黑夜来了。",
+    "image_hint": "黑",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0081",
+    "character": "白",
+    "pinyin": "bai",
+    "radical": "白",
+    "stroke_count": 5,
+    "grade_level": 2,
+    "word_family": "颜色",
+    "related_words": [
+      "白色",
+      "白天"
+    ],
+    "sentence_example": "白云朵朵。",
+    "image_hint": "白",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0082",
+    "character": "猫",
+    "pinyin": "mao",
+    "radical": "犭",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "小猫",
+      "猫咪"
+    ],
+    "sentence_example": "小猫喵喵叫。",
+    "image_hint": "猫",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0083",
+    "character": "狗",
+    "pinyin": "gou",
+    "radical": "犭",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "小狗",
+      "狗叫"
+    ],
+    "sentence_example": "小狗汪汪汪。",
+    "image_hint": "狗",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0084",
+    "character": "鸡",
+    "pinyin": "ji",
+    "radical": "鸟",
+    "stroke_count": 7,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "小鸡",
+      "公鸡"
+    ],
+    "sentence_example": "公鸡打鸣。",
+    "image_hint": "鸡",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0085",
+    "character": "鸭",
+    "pinyin": "ya",
+    "radical": "鸟",
+    "stroke_count": 10,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "鸭子",
+      "小鸭"
+    ],
+    "sentence_example": "鸭子游泳。",
+    "image_hint": "鸭",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0086",
+    "character": "兔",
+    "pinyin": "tu",
+    "radical": "儿",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "兔子",
+      "白兔"
+    ],
+    "sentence_example": "小兔吃萝卜。",
+    "image_hint": "兔",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0087",
+    "character": "熊",
+    "pinyin": "xiong",
+    "radical": "灬",
+    "stroke_count": 14,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "熊猫",
+      "黑熊"
+    ],
+    "sentence_example": "熊猫吃竹子。",
+    "image_hint": "熊",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0088",
+    "character": "虎",
+    "pinyin": "hu",
+    "radical": "虍",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "老虎",
+      "猛虎"
+    ],
+    "sentence_example": "老虎是百兽王。",
+    "image_hint": "虎",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0089",
+    "character": "象",
+    "pinyin": "xiang",
+    "radical": "豕",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "大象",
+      "象牙"
+    ],
+    "sentence_example": "大象身体很大。",
+    "image_hint": "象",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0090",
+    "character": "狮",
+    "pinyin": "shi",
+    "radical": "犭",
+    "stroke_count": 9,
+    "grade_level": 2,
+    "word_family": "动物",
+    "related_words": [
+      "狮子",
+      "雄狮"
+    ],
+    "sentence_example": "狮子在草原上。",
+    "image_hint": "狮",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0091",
+    "character": "唱",
+    "pinyin": "chang",
+    "radical": "口",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "动作",
+    "related_words": [
+      "唱歌",
+      "欢唱"
+    ],
+    "sentence_example": "一起唱歌。",
+    "image_hint": "唱",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0092",
+    "character": "歌",
+    "pinyin": "ge",
+    "radical": "欠",
+    "stroke_count": 14,
+    "grade_level": 2,
+    "word_family": "艺术",
+    "related_words": [
+      "歌曲",
+      "唱歌"
+    ],
+    "sentence_example": "这首歌很好听。",
+    "image_hint": "歌",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0093",
+    "character": "舞",
+    "pinyin": "wu",
+    "radical": "夕",
+    "stroke_count": 14,
+    "grade_level": 2,
+    "word_family": "艺术",
+    "related_words": [
+      "跳舞",
+      "舞蹈"
+    ],
+    "sentence_example": "她会跳舞。",
+    "image_hint": "舞",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0094",
+    "character": "画",
+    "pinyin": "hua",
+    "radical": "田",
+    "stroke_count": 8,
+    "grade_level": 2,
+    "word_family": "艺术",
+    "related_words": [
+      "画画",
+      "图画"
+    ],
+    "sentence_example": "我喜欢画画。",
+    "image_hint": "画",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0095",
+    "character": "笑",
+    "pinyin": "xiao",
+    "radical": "竹",
+    "stroke_count": 10,
+    "grade_level": 2,
+    "word_family": "表情",
+    "related_words": [
+      "笑容",
+      "欢笑"
+    ],
+    "sentence_example": "她笑起来很美。",
+    "image_hint": "笑",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0096",
+    "character": "哭",
+    "pinyin": "ku",
+    "radical": "犬",
+    "stroke_count": 10,
+    "grade_level": 2,
+    "word_family": "表情",
+    "related_words": [
+      "哭泣",
+      "大哭"
+    ],
+    "sentence_example": "别哭了。",
+    "image_hint": "哭",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0097",
+    "character": "快",
+    "pinyin": "kuai",
+    "radical": "忄",
+    "stroke_count": 7,
+    "grade_level": 2,
+    "word_family": "状态",
+    "related_words": [
+      "快乐",
+      "飞快"
+    ],
+    "sentence_example": "我们很快乐。",
+    "image_hint": "快",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0098",
+    "character": "乐",
+    "pinyin": "le",
+    "radical": "丿",
+    "stroke_count": 5,
+    "grade_level": 2,
+    "word_family": "状态",
+    "related_words": [
+      "快乐",
+      "音乐"
+    ],
+    "sentence_example": "快乐的一天。",
+    "image_hint": "乐",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0099",
+    "character": "忙",
+    "pinyin": "mang",
+    "radical": "忄",
+    "stroke_count": 6,
+    "grade_level": 2,
+    "word_family": "状态",
+    "related_words": [
+      "连忙",
+      "急忙"
+    ],
+    "sentence_example": "妈妈很忙。",
+    "image_hint": "忙",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0100",
+    "character": "累",
+    "pinyin": "lei",
+    "radical": "田",
+    "stroke_count": 11,
+    "grade_level": 2,
+    "word_family": "状态",
+    "related_words": [
+      "劳累",
+      "很累"
+    ],
+    "sentence_example": "工作很累。",
+    "image_hint": "累",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "2A"
+  },
+  {
+    "word_id": "0101",
+    "character": "根",
+    "pinyin": "gen",
+    "radical": "木",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "植物",
+    "related_words": [
+      "树根",
+      "根据"
+    ],
+    "sentence_example": "树根扎得深。",
+    "image_hint": "根",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0102",
+    "character": "叶",
+    "pinyin": "ye",
+    "radical": "口",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "植物",
+    "related_words": [
+      "树叶",
+      "叶子"
+    ],
+    "sentence_example": "树叶变黄了。",
+    "image_hint": "叶",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0103",
+    "character": "枝",
+    "pinyin": "zhi",
+    "radical": "木",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "植物",
+    "related_words": [
+      "树枝",
+      "枝条"
+    ],
+    "sentence_example": "树枝发芽了。",
+    "image_hint": "枝",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0104",
+    "character": "果",
+    "pinyin": "guo",
+    "radical": "木",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "植物",
+    "related_words": [
+      "水果",
+      "果实"
+    ],
+    "sentence_example": "秋天果子熟了。",
+    "image_hint": "果",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0105",
+    "character": "河",
+    "pinyin": "he",
+    "radical": "氵",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "地理",
+    "related_words": [
+      "河流",
+      "小河"
+    ],
+    "sentence_example": "家乡有一条河。",
+    "image_hint": "河",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0106",
+    "character": "海",
+    "pinyin": "hai",
+    "radical": "氵",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "地理",
+    "related_words": [
+      "大海",
+      "海洋"
+    ],
+    "sentence_example": "大海真美。",
+    "image_hint": "海",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0107",
+    "character": "江",
+    "pinyin": "jiang",
+    "radical": "氵",
+    "stroke_count": 6,
+    "grade_level": 3,
+    "word_family": "地理",
+    "related_words": [
+      "长江",
+      "江水"
+    ],
+    "sentence_example": "长江很长。",
+    "image_hint": "江",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0108",
+    "character": "湖",
+    "pinyin": "hu",
+    "radical": "氵",
+    "stroke_count": 12,
+    "grade_level": 3,
+    "word_family": "地理",
+    "related_words": [
+      "湖水",
+      "湖泊"
+    ],
+    "sentence_example": "湖水很清。",
+    "image_hint": "湖",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0109",
+    "character": "岛",
+    "pinyin": "dao",
+    "radical": "山",
+    "stroke_count": 7,
+    "grade_level": 3,
+    "word_family": "地理",
+    "related_words": [
+      "海岛",
+      "岛屿"
+    ],
+    "sentence_example": "岛上风景美。",
+    "image_hint": "岛",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0110",
+    "character": "岸",
+    "pinyin": "an",
+    "radical": "山",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "地理",
+    "related_words": [
+      "岸边",
+      "海岸"
+    ],
+    "sentence_example": "走到岸边。",
+    "image_hint": "岸",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0111",
+    "character": "城",
+    "pinyin": "cheng",
+    "radical": "土",
+    "stroke_count": 9,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "城市",
+      "长城"
+    ],
+    "sentence_example": "北京是古城。",
+    "image_hint": "城",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0112",
+    "character": "市",
+    "pinyin": "shi",
+    "radical": "巾",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "社会",
+    "related_words": [
+      "城市",
+      "市场"
+    ],
+    "sentence_example": "上海市很大。",
+    "image_hint": "市",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0113",
+    "character": "街",
+    "pinyin": "jie",
+    "radical": "彳",
+    "stroke_count": 12,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "街道",
+      "大街"
+    ],
+    "sentence_example": "大街上很热闹。",
+    "image_hint": "街",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0114",
+    "character": "路",
+    "pinyin": "lu",
+    "radical": "足",
+    "stroke_count": 13,
+    "grade_level": 3,
+    "word_family": "交通",
+    "related_words": [
+      "马路",
+      "道路"
+    ],
+    "sentence_example": "马路很宽。",
+    "image_hint": "路",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0115",
+    "character": "桥",
+    "pinyin": "qiao",
+    "radical": "木",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "桥梁",
+      "小桥"
+    ],
+    "sentence_example": "桥上走。",
+    "image_hint": "桥",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0116",
+    "character": "楼",
+    "pinyin": "lou",
+    "radical": "木",
+    "stroke_count": 13,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "楼房",
+      "高楼"
+    ],
+    "sentence_example": "高楼大厦。",
+    "image_hint": "楼",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0117",
+    "character": "房",
+    "pinyin": "fang",
+    "radical": "户",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "房子",
+      "房间"
+    ],
+    "sentence_example": "我家房子大。",
+    "image_hint": "房",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0118",
+    "character": "屋",
+    "pinyin": "wu",
+    "radical": "尸",
+    "stroke_count": 9,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "房屋",
+      "屋子"
+    ],
+    "sentence_example": "屋里很暖和。",
+    "image_hint": "屋",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0119",
+    "character": "门",
+    "pinyin": "men",
+    "radical": "门",
+    "stroke_count": 3,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "开门",
+      "大门"
+    ],
+    "sentence_example": "请开门。",
+    "image_hint": "门",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0120",
+    "character": "窗",
+    "pinyin": "chuang",
+    "radical": "穴",
+    "stroke_count": 12,
+    "grade_level": 3,
+    "word_family": "建筑",
+    "related_words": [
+      "窗户",
+      "窗台"
+    ],
+    "sentence_example": "窗外有鸟叫。",
+    "image_hint": "窗",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0121",
+    "character": "桌",
+    "pinyin": "zhuo",
+    "radical": "木",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "家具",
+    "related_words": [
+      "桌子",
+      "课桌"
+    ],
+    "sentence_example": "书桌上的书。",
+    "image_hint": "桌",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0122",
+    "character": "椅",
+    "pinyin": "yi",
+    "radical": "木",
+    "stroke_count": 12,
+    "grade_level": 3,
+    "word_family": "家具",
+    "related_words": [
+      "椅子",
+      "桌椅"
+    ],
+    "sentence_example": "请坐椅子。",
+    "image_hint": "椅",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0123",
+    "character": "床",
+    "pinyin": "chuang",
+    "radical": "广",
+    "stroke_count": 7,
+    "grade_level": 3,
+    "word_family": "家具",
+    "related_words": [
+      "起床",
+      "床单"
+    ],
+    "sentence_example": "该起床了。",
+    "image_hint": "床",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0124",
+    "character": "灯",
+    "pinyin": "deng",
+    "radical": "火",
+    "stroke_count": 6,
+    "grade_level": 3,
+    "word_family": "物品",
+    "related_words": [
+      "灯光",
+      "路灯"
+    ],
+    "sentence_example": "开灯写作业。",
+    "image_hint": "灯",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0125",
+    "character": "笔",
+    "pinyin": "bi",
+    "radical": "竹",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "文具",
+    "related_words": [
+      "铅笔",
+      "毛笔"
+    ],
+    "sentence_example": "用笔写字。",
+    "image_hint": "笔",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0126",
+    "character": "纸",
+    "pinyin": "zhi",
+    "radical": "纟",
+    "stroke_count": 7,
+    "grade_level": 3,
+    "word_family": "文具",
+    "related_words": [
+      "白纸",
+      "纸张"
+    ],
+    "sentence_example": "白纸上画画。",
+    "image_hint": "纸",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0127",
+    "character": "书",
+    "pinyin": "shu",
+    "radical": "乙",
+    "stroke_count": 4,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "书本",
+      "看书"
+    ],
+    "sentence_example": "我爱看书。",
+    "image_hint": "书",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0128",
+    "character": "本",
+    "pinyin": "ben",
+    "radical": "木",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "书本",
+      "本来"
+    ],
+    "sentence_example": "这是我的本子。",
+    "image_hint": "本",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0129",
+    "character": "课",
+    "pinyin": "ke",
+    "radical": "讠",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "上课",
+      "课文"
+    ],
+    "sentence_example": "今天语文课。",
+    "image_hint": "课",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0130",
+    "character": "题",
+    "pinyin": "ti",
+    "radical": "页",
+    "stroke_count": 15,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "题目",
+      "问题"
+    ],
+    "sentence_example": "有道难题。",
+    "image_hint": "题",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0131",
+    "character": "答",
+    "pinyin": "da",
+    "radical": "竹",
+    "stroke_count": 12,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "回答",
+      "答案"
+    ],
+    "sentence_example": "回答问题。",
+    "image_hint": "答",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0132",
+    "character": "问",
+    "pinyin": "wen",
+    "radical": "门",
+    "stroke_count": 6,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "问题",
+      "提问"
+    ],
+    "sentence_example": "有问题举手。",
+    "image_hint": "问",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0133",
+    "character": "考",
+    "pinyin": "kao",
+    "radical": "耂",
+    "stroke_count": 6,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "考试",
+      "思考"
+    ],
+    "sentence_example": "今天考试。",
+    "image_hint": "考",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0134",
+    "character": "试",
+    "pinyin": "shi",
+    "radical": "讠",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "考试",
+      "尝试"
+    ],
+    "sentence_example": "努力试一试。",
+    "image_hint": "试",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0135",
+    "character": "语",
+    "pinyin": "yu",
+    "radical": "讠",
+    "stroke_count": 9,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "语文",
+      "语言"
+    ],
+    "sentence_example": "学语文。",
+    "image_hint": "语",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0136",
+    "character": "文",
+    "pinyin": "wen",
+    "radical": "文",
+    "stroke_count": 4,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "语文",
+      "文字"
+    ],
+    "sentence_example": "文章很美。",
+    "image_hint": "文",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0137",
+    "character": "数",
+    "pinyin": "shu",
+    "radical": "攵",
+    "stroke_count": 13,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "数学",
+      "数字"
+    ],
+    "sentence_example": "学数学。",
+    "image_hint": "数",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0138",
+    "character": "算",
+    "pinyin": "suan",
+    "radical": "竹",
+    "stroke_count": 14,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "计算",
+      "算数"
+    ],
+    "sentence_example": "认真算。",
+    "image_hint": "算",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0139",
+    "character": "加",
+    "pinyin": "jia",
+    "radical": "力",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "加法",
+      "更加"
+    ],
+    "sentence_example": "三加二。",
+    "image_hint": "加",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0140",
+    "character": "减",
+    "pinyin": "jian",
+    "radical": "冫",
+    "stroke_count": 11,
+    "grade_level": 3,
+    "word_family": "学习",
+    "related_words": [
+      "减法",
+      "减少"
+    ],
+    "sentence_example": "减法运算。",
+    "image_hint": "减",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0141",
+    "character": "故",
+    "pinyin": "gu",
+    "radical": "攵",
+    "stroke_count": 9,
+    "grade_level": 3,
+    "word_family": "故事",
+    "related_words": [
+      "故事",
+      "故乡"
+    ],
+    "sentence_example": "讲故事。",
+    "image_hint": "故",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0142",
+    "character": "事",
+    "pinyin": "shi",
+    "radical": "一",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "故事",
+    "related_words": [
+      "故事",
+      "事情"
+    ],
+    "sentence_example": "这是什么事？",
+    "image_hint": "事",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0143",
+    "character": "诗",
+    "pinyin": "shi",
+    "radical": "讠",
+    "stroke_count": 8,
+    "grade_level": 3,
+    "word_family": "文学",
+    "related_words": [
+      "古诗",
+      "诗歌"
+    ],
+    "sentence_example": "背唐诗。",
+    "image_hint": "诗",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0144",
+    "character": "词",
+    "pinyin": "ci",
+    "radical": "讠",
+    "stroke_count": 7,
+    "grade_level": 3,
+    "word_family": "文学",
+    "related_words": [
+      "词语",
+      "单词"
+    ],
+    "sentence_example": "学新词。",
+    "image_hint": "词",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0145",
+    "character": "句",
+    "pinyin": "ju",
+    "radical": "勹",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "文学",
+    "related_words": [
+      "句子",
+      "造句"
+    ],
+    "sentence_example": "写一句话。",
+    "image_hint": "句",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0146",
+    "character": "读",
+    "pinyin": "du",
+    "radical": "讠",
+    "stroke_count": 10,
+    "grade_level": 3,
+    "word_family": "动作",
+    "related_words": [
+      "读书",
+      "阅读"
+    ],
+    "sentence_example": "大声朗读。",
+    "image_hint": "读",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0147",
+    "character": "写",
+    "pinyin": "xie",
+    "radical": "冖",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "动作",
+    "related_words": [
+      "写字",
+      "书写"
+    ],
+    "sentence_example": "认真写字。",
+    "image_hint": "写",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0148",
+    "character": "记",
+    "pinyin": "ji",
+    "radical": "讠",
+    "stroke_count": 5,
+    "grade_level": 3,
+    "word_family": "动作",
+    "related_words": [
+      "记住",
+      "记忆"
+    ],
+    "sentence_example": "记住这些字。",
+    "image_hint": "记",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0149",
+    "character": "忘",
+    "pinyin": "wang",
+    "radical": "心",
+    "stroke_count": 7,
+    "grade_level": 3,
+    "word_family": "动作",
+    "related_words": [
+      "忘记",
+      "难忘"
+    ],
+    "sentence_example": "别忘了。",
+    "image_hint": "忘",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0150",
+    "character": "思",
+    "pinyin": "si",
+    "radical": "心",
+    "stroke_count": 9,
+    "grade_level": 3,
+    "word_family": "思维",
+    "related_words": [
+      "思考",
+      "思想"
+    ],
+    "sentence_example": "认真思考。",
+    "image_hint": "思",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "3A"
+  },
+  {
+    "word_id": "0151",
+    "character": "奇",
+    "pinyin": "qi",
+    "radical": "大",
+    "stroke_count": 8,
+    "grade_level": 4,
+    "word_family": "感受",
+    "related_words": [
+      "奇怪",
+      "神奇"
+    ],
+    "sentence_example": "大千世界真奇妙。",
+    "image_hint": "奇",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0152",
+    "character": "妙",
+    "pinyin": "miao",
+    "radical": "女",
+    "stroke_count": 7,
+    "grade_level": 4,
+    "word_family": "感受",
+    "related_words": [
+      "美妙",
+      "奇妙"
+    ],
+    "sentence_example": "妙不可言。",
+    "image_hint": "妙",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0153",
+    "character": "梦",
+    "pinyin": "meng",
+    "radical": "夕",
+    "stroke_count": 11,
+    "grade_level": 4,
+    "word_family": "感受",
+    "related_words": [
+      "做梦",
+      "梦想"
+    ],
+    "sentence_example": "我做了个梦。",
+    "image_hint": "梦",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0154",
+    "character": "幻",
+    "pinyin": "huan",
+    "radical": "幺",
+    "stroke_count": 4,
+    "grade_level": 4,
+    "word_family": "感受",
+    "related_words": [
+      "幻想",
+      "变幻"
+    ],
+    "sentence_example": "它变幻莫测。",
+    "image_hint": "幻",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0155",
+    "character": "勇",
+    "pinyin": "yong",
+    "radical": "力",
+    "stroke_count": 9,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "勇敢",
+      "勇气"
+    ],
+    "sentence_example": "勇敢向前。",
+    "image_hint": "勇",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0156",
+    "character": "敢",
+    "pinyin": "gan",
+    "radical": "攵",
+    "stroke_count": 11,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "勇敢",
+      "不敢"
+    ],
+    "sentence_example": "你敢吗？",
+    "image_hint": "敢",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0157",
+    "character": "坚",
+    "pinyin": "jian",
+    "radical": "土",
+    "stroke_count": 7,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "坚强",
+      "坚持"
+    ],
+    "sentence_example": "坚持就是胜利。",
+    "image_hint": "坚",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0158",
+    "character": "强",
+    "pinyin": "qiang",
+    "radical": "弓",
+    "stroke_count": 12,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "强大",
+      "坚强"
+    ],
+    "sentence_example": "他很强大。",
+    "image_hint": "强",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0159",
+    "character": "诚",
+    "pinyin": "cheng",
+    "radical": "讠",
+    "stroke_count": 8,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "诚实",
+      "真诚"
+    ],
+    "sentence_example": "做人要诚实。",
+    "image_hint": "诚",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0160",
+    "character": "实",
+    "pinyin": "shi",
+    "radical": "宀",
+    "stroke_count": 8,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "诚实",
+      "实在"
+    ],
+    "sentence_example": "实事求是。",
+    "image_hint": "实",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0161",
+    "character": "勤",
+    "pinyin": "qin",
+    "radical": "力",
+    "stroke_count": 13,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "勤劳",
+      "勤奋"
+    ],
+    "sentence_example": "勤劳的小蜜蜂。",
+    "image_hint": "勤",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0162",
+    "character": "奋",
+    "pinyin": "fen",
+    "radical": "大",
+    "stroke_count": 8,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "奋斗",
+      "勤奋"
+    ],
+    "sentence_example": "努力奋斗。",
+    "image_hint": "奋",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0163",
+    "character": "努",
+    "pinyin": "nu",
+    "radical": "力",
+    "stroke_count": 7,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "努力"
+    ],
+    "sentence_example": "努力学习。",
+    "image_hint": "努",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0164",
+    "character": "慧",
+    "pinyin": "hui",
+    "radical": "心",
+    "stroke_count": 15,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "智慧",
+      "聪明"
+    ],
+    "sentence_example": "智慧的结晶。",
+    "image_hint": "慧",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0165",
+    "character": "聪",
+    "pinyin": "cong",
+    "radical": "耳",
+    "stroke_count": 15,
+    "grade_level": 4,
+    "word_family": "品质",
+    "related_words": [
+      "聪明",
+      "聪慧"
+    ],
+    "sentence_example": "聪明的孩子。",
+    "image_hint": "聪",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0166",
+    "character": "团",
+    "pinyin": "tuan",
+    "radical": "囗",
+    "stroke_count": 6,
+    "grade_level": 4,
+    "word_family": "社会",
+    "related_words": [
+      "团结",
+      "团队"
+    ],
+    "sentence_example": "团结就是力量。",
+    "image_hint": "团",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0167",
+    "character": "结",
+    "pinyin": "jie",
+    "radical": "纟",
+    "stroke_count": 9,
+    "grade_level": 4,
+    "word_family": "社会",
+    "related_words": [
+      "团结",
+      "结果"
+    ],
+    "sentence_example": "大家团结起来。",
+    "image_hint": "结",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0168",
+    "character": "互",
+    "pinyin": "hu",
+    "radical": "一",
+    "stroke_count": 4,
+    "grade_level": 4,
+    "word_family": "社会",
+    "related_words": [
+      "互相",
+      "相互"
+    ],
+    "sentence_example": "互相帮助。",
+    "image_hint": "互",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0169",
+    "character": "助",
+    "pinyin": "zhu",
+    "radical": "力",
+    "stroke_count": 7,
+    "grade_level": 4,
+    "word_family": "社会",
+    "related_words": [
+      "帮助",
+      "助手"
+    ],
+    "sentence_example": "帮助别人。",
+    "image_hint": "助",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0170",
+    "character": "帮",
+    "pinyin": "bang",
+    "radical": "巾",
+    "stroke_count": 9,
+    "grade_level": 4,
+    "word_family": "社会",
+    "related_words": [
+      "帮助",
+      "帮忙"
+    ],
+    "sentence_example": "帮帮忙好吗？",
+    "image_hint": "帮",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0171",
+    "character": "敬",
+    "pinyin": "jing",
+    "radical": "攵",
+    "stroke_count": 12,
+    "grade_level": 4,
+    "word_family": "社会",
+    "related_words": [
+      "尊敬",
+      "敬爱"
+    ],
+    "sentence_example": "尊敬师长。",
+    "image_hint": "敬",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0172",
+    "character": "爱",
+    "pinyin": "ai",
+    "radical": "心",
+    "stroke_count": 10,
+    "grade_level": 4,
+    "word_family": "情感",
+    "related_words": [
+      "爱心",
+      "热爱"
+    ],
+    "sentence_example": "我爱祖国。",
+    "image_hint": "爱",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0173",
+    "character": "感",
+    "pinyin": "gan",
+    "radical": "心",
+    "stroke_count": 13,
+    "grade_level": 4,
+    "word_family": "情感",
+    "related_words": [
+      "感动",
+      "感觉"
+    ],
+    "sentence_example": "我很感动。",
+    "image_hint": "感",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0174",
+    "character": "谢",
+    "pinyin": "xie",
+    "radical": "讠",
+    "stroke_count": 12,
+    "grade_level": 4,
+    "word_family": "社交",
+    "related_words": [
+      "谢谢",
+      "感谢"
+    ],
+    "sentence_example": "谢谢你。",
+    "image_hint": "谢",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0175",
+    "character": "礼",
+    "pinyin": "li",
+    "radical": "礻",
+    "stroke_count": 5,
+    "grade_level": 4,
+    "word_family": "社交",
+    "related_words": [
+      "礼物",
+      "礼貌"
+    ],
+    "sentence_example": "讲礼貌。",
+    "image_hint": "礼",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "4A"
+  },
+  {
+    "word_id": "0176",
+    "character": "哲",
+    "pinyin": "zhe",
+    "radical": "口",
+    "stroke_count": 10,
+    "grade_level": 5,
+    "word_family": "思维",
+    "related_words": [
+      "哲学",
+      "哲理"
+    ],
+    "sentence_example": "人生哲学。",
+    "image_hint": "哲",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0177",
+    "character": "理",
+    "pinyin": "li",
+    "radical": "王",
+    "stroke_count": 11,
+    "grade_level": 5,
+    "word_family": "思维",
+    "related_words": [
+      "道理",
+      "理由"
+    ],
+    "sentence_example": "讲道理。",
+    "image_hint": "理",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0178",
+    "character": "论",
+    "pinyin": "lun",
+    "radical": "讠",
+    "stroke_count": 6,
+    "grade_level": 5,
+    "word_family": "思维",
+    "related_words": [
+      "讨论",
+      "理论"
+    ],
+    "sentence_example": "大家讨论一下。",
+    "image_hint": "论",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0179",
+    "character": "辩",
+    "pinyin": "bian",
+    "radical": "辛",
+    "stroke_count": 16,
+    "grade_level": 5,
+    "word_family": "思维",
+    "related_words": [
+      "辩论",
+      "争辩"
+    ],
+    "sentence_example": "辩论赛。",
+    "image_hint": "辩",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0180",
+    "character": "证",
+    "pinyin": "zheng",
+    "radical": "讠",
+    "stroke_count": 7,
+    "grade_level": 5,
+    "word_family": "思维",
+    "related_words": [
+      "证明",
+      "证据"
+    ],
+    "sentence_example": "有证据吗？",
+    "image_hint": "证",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0181",
+    "character": "英",
+    "pinyin": "ying",
+    "radical": "艹",
+    "stroke_count": 8,
+    "grade_level": 5,
+    "word_family": "品质",
+    "related_words": [
+      "英雄",
+      "精英"
+    ],
+    "sentence_example": "人民英雄。",
+    "image_hint": "英",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0182",
+    "character": "雄",
+    "pinyin": "xiong",
+    "radical": "隹",
+    "stroke_count": 12,
+    "grade_level": 5,
+    "word_family": "品质",
+    "related_words": [
+      "英雄",
+      "雄伟"
+    ],
+    "sentence_example": "雄伟的天安门。",
+    "image_hint": "雄",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0183",
+    "character": "豪",
+    "pinyin": "hao",
+    "radical": "豕",
+    "stroke_count": 14,
+    "grade_level": 5,
+    "word_family": "品质",
+    "related_words": [
+      "自豪",
+      "豪迈"
+    ],
+    "sentence_example": "为祖国自豪。",
+    "image_hint": "豪",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0184",
+    "character": "杰",
+    "pinyin": "jie",
+    "radical": "木",
+    "stroke_count": 8,
+    "grade_level": 5,
+    "word_family": "品质",
+    "related_words": [
+      "杰出",
+      "豪杰"
+    ],
+    "sentence_example": "杰出贡献。",
+    "image_hint": "杰",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0185",
+    "character": "创",
+    "pinyin": "chuang",
+    "radical": "刂",
+    "stroke_count": 6,
+    "grade_level": 5,
+    "word_family": "创新",
+    "related_words": [
+      "创造",
+      "创新"
+    ],
+    "sentence_example": "创造未来。",
+    "image_hint": "创",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0186",
+    "character": "新",
+    "pinyin": "xin",
+    "radical": "斤",
+    "stroke_count": 13,
+    "grade_level": 5,
+    "word_family": "创新",
+    "related_words": [
+      "创新",
+      "新鲜"
+    ],
+    "sentence_example": "新的开始。",
+    "image_hint": "新",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0187",
+    "character": "技",
+    "pinyin": "ji",
+    "radical": "扌",
+    "stroke_count": 7,
+    "grade_level": 5,
+    "word_family": "科技",
+    "related_words": [
+      "技术",
+      "科技"
+    ],
+    "sentence_example": "科学技术。",
+    "image_hint": "技",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0188",
+    "character": "科",
+    "pinyin": "ke",
+    "radical": "禾",
+    "stroke_count": 9,
+    "grade_level": 5,
+    "word_family": "科技",
+    "related_words": [
+      "科学",
+      "科技"
+    ],
+    "sentence_example": "爱科学。",
+    "image_hint": "科",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0189",
+    "character": "研",
+    "pinyin": "yan",
+    "radical": "石",
+    "stroke_count": 9,
+    "grade_level": 5,
+    "word_family": "科技",
+    "related_words": [
+      "研究",
+      "科研"
+    ],
+    "sentence_example": "科学研究。",
+    "image_hint": "研",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0190",
+    "character": "究",
+    "pinyin": "jiu",
+    "radical": "穴",
+    "stroke_count": 7,
+    "grade_level": 5,
+    "word_family": "科技",
+    "related_words": [
+      "研究",
+      "究竟"
+    ],
+    "sentence_example": "探究真理。",
+    "image_hint": "究",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "5A"
+  },
+  {
+    "word_id": "0191",
+    "character": "宙",
+    "pinyin": "zhou",
+    "radical": "宀",
+    "stroke_count": 8,
+    "grade_level": 6,
+    "word_family": "宇宙",
+    "related_words": [
+      "宇宙"
+    ],
+    "sentence_example": "浩瀚宇宙。",
+    "image_hint": "宙",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0192",
+    "character": "宇",
+    "pinyin": "yu",
+    "radical": "宀",
+    "stroke_count": 6,
+    "grade_level": 6,
+    "word_family": "宇宙",
+    "related_words": [
+      "宇宙",
+      "宇航"
+    ],
+    "sentence_example": "宇宙大爆炸。",
+    "image_hint": "宇",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0193",
+    "character": "维",
+    "pinyin": "wei",
+    "radical": "纟",
+    "stroke_count": 11,
+    "grade_level": 6,
+    "word_family": "思维",
+    "related_words": [
+      "思维",
+      "维护"
+    ],
+    "sentence_example": "三维空间。",
+    "image_hint": "维",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0194",
+    "character": "逻",
+    "pinyin": "luo",
+    "radical": "辶",
+    "stroke_count": 11,
+    "grade_level": 6,
+    "word_family": "思维",
+    "related_words": [
+      "逻辑"
+    ],
+    "sentence_example": "逻辑思维。",
+    "image_hint": "逻",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0195",
+    "character": "辑",
+    "pinyin": "ji",
+    "radical": "车",
+    "stroke_count": 12,
+    "grade_level": 6,
+    "word_family": "思维",
+    "related_words": [
+      "逻辑",
+      "编辑"
+    ],
+    "sentence_example": "逻辑推理。",
+    "image_hint": "辑",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0196",
+    "character": "辩",
+    "pinyin": "bian",
+    "radical": "辛",
+    "stroke_count": 16,
+    "grade_level": 6,
+    "word_family": "思维",
+    "related_words": [
+      "辩证",
+      "辩论"
+    ],
+    "sentence_example": "辩证看待。",
+    "image_hint": "辩",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0197",
+    "character": "证",
+    "pinyin": "zheng",
+    "radical": "讠",
+    "stroke_count": 7,
+    "grade_level": 6,
+    "word_family": "思维",
+    "related_words": [
+      "辩证",
+      "证明"
+    ],
+    "sentence_example": "证据确凿。",
+    "image_hint": "证",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0198",
+    "character": "统",
+    "pinyin": "tong",
+    "radical": "纟",
+    "stroke_count": 9,
+    "grade_level": 6,
+    "word_family": "系统",
+    "related_words": [
+      "统一",
+      "系统"
+    ],
+    "sentence_example": "统一管理。",
+    "image_hint": "统",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0199",
+    "character": "系",
+    "pinyin": "xi",
+    "radical": "糸",
+    "stroke_count": 7,
+    "grade_level": 6,
+    "word_family": "系统",
+    "related_words": [
+      "系统",
+      "关系"
+    ],
+    "sentence_example": "系统工程。",
+    "image_hint": "系",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
+  },
+  {
+    "word_id": "0200",
+    "character": "源",
+    "pinyin": "yuan",
+    "radical": "氵",
+    "stroke_count": 13,
+    "grade_level": 6,
+    "word_family": "起源",
+    "related_words": [
+      "起源",
+      "资源"
+    ],
+    "sentence_example": "生命之源。",
+    "image_hint": "源",
+    "review_dates": [],
+    "mastery_level": 0,
+    "unit": "6A"
   }
 ]

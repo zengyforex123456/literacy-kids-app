@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useUserStore } from '../../shared/stores/userStore'
 import { DailyBox } from "../../shared/components/DailyBox"
+import { SimplePet } from "../../shared/components/SimplePet"
 import { SeniorModeToggle } from "../../shared/components/SeniorMode"
 import { FreeTrialBanner } from "../../shared/components/FreeTrialBanner"
 import { useVoice } from '../../shared/hooks/useVoice'

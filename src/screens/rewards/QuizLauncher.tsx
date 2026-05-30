@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { QuizGame } from '../games/quiz/QuizGame'
+import { QuizGame } from '../../games/quiz/QuizGame'
 
 interface Props { learnedChars: string[]; onClose: () => void }
 interface QuizWord { chinese: string; pinyin: string; emoji: string }

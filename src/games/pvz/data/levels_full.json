@@ -1,0 +1,123 @@
+[
+  {
+    "level_id": 1,
+    "level_name": "后院草地",
+    "stage": "启蒙阶段",
+    "theme": "grass",
+    "mechanic": "拼音",
+    "desc": "种植前必须答对拼音",
+    "new_words": ["一", "二", "三", "人", "口"],
+    "review_words": [],
+    "word_family": "数字与人体",
+    "plants_available": ["pea", "sun"],
+    "zombie_config": {
+      "normal": {"count": 5, "speed": 0.3, "hp": 100},
+      "special": null
+    },
+    "boss_config": null,
+    "sun_start": 150,
+    "unlock_condition": null,
+    "reward_words": ["个", "大"],
+    "memory_curve_points": [1, 3, 7],
+    "time_limit": null,
+    "quiz_type": "pinyin_match"
+  },
+  {
+    "level_id": 2,
+    "level_name": "迷雾泳池",
+    "stage": "启蒙阶段",
+    "theme": "pool",
+    "mechanic": "配对",
+    "desc": "僵尸头顶偏旁，需配对应汉字",
+    "new_words": ["坚", "果", "墙", "挡"],
+    "review_words": ["一", "二", "三", "人"],
+    "word_family": "建筑与防御",
+    "plants_available": ["pea", "sun", "nut"],
+    "zombie_config": {
+      "normal": {"count": 6, "speed": 0.35, "hp": 120},
+      "special": {"type": "radical_zombie", "count": 2, "hp": 150, "speed": 0.25}
+    },
+    "boss_config": null,
+    "sun_start": 150,
+    "unlock_condition": "complete_level_1",
+    "reward_words": ["防", "卫"],
+    "memory_curve_points": [1, 3, 7, 14],
+    "time_limit": null,
+    "quiz_type": "radical_match"
+  },
+  {
+    "level_id": 3,
+    "level_name": "屋顶之战",
+    "stage": "进阶阶段",
+    "theme": "roof",
+    "mechanic": "限时",
+    "desc": "5秒内答对，否则僵尸加速",
+    "new_words": ["樱", "桃", "炸", "弹"],
+    "review_words": ["坚", "果", "墙", "口"],
+    "word_family": "爆破相关",
+    "plants_available": ["pea", "sun", "nut", "chili"],
+    "zombie_config": {
+      "normal": {"count": 5, "speed": 0.4, "hp": 130},
+      "special": {"type": "speed_zombie", "count": 3, "hp": 100, "speed": 0.6}
+    },
+    "boss_config": null,
+    "sun_start": 200,
+    "unlock_condition": "complete_level_2",
+    "reward_words": ["爆", "力"],
+    "memory_curve_points": [1, 2, 5, 10, 20],
+    "time_limit": 5,
+    "quiz_type": "timed_match"
+  },
+  {
+    "level_id": 4,
+    "level_name": "黑夜墓地",
+    "stage": "进阶阶段",
+    "theme": "night",
+    "mechanic": "组词",
+    "desc": "用目标汉字组词，正确发射减速豌豆",
+    "new_words": ["寒", "冰", "减", "速"],
+    "review_words": ["樱", "桃", "炸", "一", "二"],
+    "word_family": "冰雪相关",
+    "plants_available": ["pea", "sun", "nut", "chili", "snow"],
+    "zombie_config": {
+      "normal": {"count": 4, "speed": 0.45, "hp": 140},
+      "special": {"type": "armored_zombie", "count": 5, "hp": 250, "speed": 0.2}
+    },
+    "boss_config": null,
+    "sun_start": 200,
+    "unlock_condition": "complete_level_3",
+    "reward_words": ["冰", "雪"],
+    "memory_curve_points": [1, 2, 4, 8, 15, 30],
+    "time_limit": null,
+    "quiz_type": "word_build"
+  },
+  {
+    "level_id": 5,
+    "level_name": "BOSS战-错字王",
+    "stage": "挑战阶段",
+    "theme": "boss",
+    "mechanic": "造句",
+    "desc": "复习前4关汉字，BOSS提问造句",
+    "new_words": ["好", "学", "习", "字", "花"],
+    "review_words": ["一", "坚", "樱", "寒", "人", "口", "三", "弹"],
+    "word_family": "综合复习",
+    "plants_available": ["pea", "sun", "nut", "chili", "snow", "cherry"],
+    "zombie_config": {
+      "normal": {"count": 6, "speed": 0.5, "hp": 150},
+      "special": {"type": "boss_guard", "count": 4, "hp": 200, "speed": 0.3}
+    },
+    "boss_config": {
+      "name": "错字王",
+      "hp": 500,
+      "speed": 0.15,
+      "quiz_type": "sentence_build",
+      "questions": ["用「好」造一个句子", "用「花」说一句话", "用「学」组一个词"]
+    },
+    "sun_start": 250,
+    "unlock_condition": "complete_level_4",
+    "reward_words": ["胜", "利"],
+    "memory_curve_points": [1, 2, 3, 5, 10, 20, 40],
+    "time_limit": null,
+    "quiz_type": "sentence_build"
+  }
+]

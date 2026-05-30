@@ -1,7 +1,7 @@
 // 精灵动画系统 — procedurally generates pixel-art animation frames
 // No external assets needed. Creates sprite sheets from geometric drawing.
 
-interface AnimFrame { draw: (g: any, x: number, y: number, scale: number) => void }
+type AnimFrame = (g: any, x: number, y: number, scale: number) => void
 
 export class SpriteAnimator {
   static createPlantAnimations(): Record<string, { idle: AnimFrame[]; attack: AnimFrame[] }> {

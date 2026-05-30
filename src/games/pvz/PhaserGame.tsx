@@ -29,8 +29,8 @@ export function PhaserPVZGame() {
       // ===== GAME SCENE (Full PVZ) =====
       class GameScene extends Phaser.Scene {
         plants: any[] = []; zombies: any[] = []; bullets: any[] = []; suns: any[] = []
-        grid: any[][] = []; ro:number; co:number; cw:number; ch:number; sx:number; sy:number
-        sun:number; score:number; gameEnd:boolean=false; selectedPlant:any=null; wave:number=1
+        grid: any[][] = []; ro:number=5; co:number=9; cw:number=90; ch:number=100; sx:number=80; sy:number=70
+        sun:number=0; score:number=0; gameEnd:boolean=false; selectedPlant:any=null; wave:number=1
         cooldowns:Record<string,number>={}; words:string[]=[]
 
         constructor() { super('game') }

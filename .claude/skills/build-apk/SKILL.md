@@ -5,117 +5,82 @@ description: Build Android APK from Capacitor project — local or CI. Detects e
 
 # Build Android APK
 
-Builds a debug APK from the Capacitor-wrapped React web app.
+## Pre-check: Path Safety
 
-## Trigger
+**CRITICAL**: Before any build action, verify the project path contains no non-ASCII characters.
 
+```bash
+PROJECT_DIR=$(pwd)
+if echo "$PROJECT_DIR" | grep -qP '[^\x00-\x7F]'; then
+  echo "WARNING: Project path contains non-ASCII characters!"
+  echo "Path: $PROJECT_DIR"
+  echo "This WILL cause UNC path failures, tool errors, and silent write failures."
+  echo "Fix: mv project to a path with ASCII-only characters (e.g. ~/literacy-kids)"
+  exit 1
+fi
 ```
-/build-apk [--ci] [--release]
-```
 
-| Flag | Effect |
-|------|--------|
-| (none) | Local build — uses Android Studio / SDK on this machine |
-| `--ci` | Push to GitHub and trigger Actions workflow |
-| `--release` | Build release (signed) APK instead of debug |
+**If the path check fails, abort immediately. Do not attempt to write files or build.**
+
+### Known Symptoms of Path Issues
+
+| Symptom | Root Cause |
+|---------|-----------|
+| Write tool "success" but no file | UNC path with CJK chars silently fails |
+| `npm` "ENOENT: no such file" | CMD doesn't support UNC + CJK |
+| `cat > file << EOF` hangs | Bash glob/regex misinterprets multi-byte chars |
+| `git` shows clean after write | File was written to wrong location |
+| `Copy-Item` fails | PowerShell UNC + CJK resolution fails |
+| Playwright "executable not found" | Path resolution in child processes fails |
 
 ## Workflow
 
-### Phase 1: DETECT
-
-Check build environment:
+### 0. PATH CHECK (mandatory)
 
 ```bash
-node --version       # Need >= 18
-npm --version
-npx cap --version    # Capacitor CLI
+pwd | grep -qP '[^\x00-\x7F]' && echo "FAIL: CJK in path" || echo "OK"
 ```
 
-Find Android SDK:
+If FAIL: **stop everything**, move project, restart.
+
+### 1. DETECT
+
+Find Android toolchain:
+
 ```bash
 # Windows
-echo %ANDROID_HOME%
-dir "%LOCALAPPDATA%\Android\Sdk"
+ls "D:\Program Files\Android\Android Studio\jbr"  # JDK 21
+cmd.exe /c "where studio64.exe"
 
-# macOS / Linux
-echo $ANDROID_HOME
-ls ~/Android/Sdk
+# Linux/WSL  
+ls /mnt/d/Program\ Files/Android/Android\ Studio/
 ```
 
-Find Java:
-```bash
-java --version      # Need JDK 17 or 21
-echo $JAVA_HOME
-```
-
-### Phase 2: BUILD WEB
+### 2. BUILD WEB
 
 ```bash
-npm install          # Install dependencies
-npm run build        # Vite production build → dist/
+npm install && npm run build
 ```
 
-Verify build output:
-```bash
-ls dist/index.html
-ls dist/assets/
-```
+### 3. CI BUILD (recommended — bypasses local path issues)
 
-### Phase 3: SYNC CAPACITOR
-
-```bash
-npx cap sync android
-```
-
-This copies `dist/` assets into `android/app/src/main/assets/public/`.
-
-### Phase 4: BUILD APK
-
-**Local (with Android Studio):**
-```bash
-npx cap open android
-# Android Studio → Build → Build Bundle(s)/APK → Build APK
-```
-
-**Local (command line):**
-```bash
-cd android
-
-# Windows
-gradlew.bat assembleDebug
-
-# macOS/Linux
-chmod +x gradlew
-./gradlew assembleDebug
-```
-
-**CI (GitHub Actions):**
 ```bash
 git add -A && git commit -m "build: trigger APK" && git push
-# Monitor: gh run watch
-# Download: gh run download <id> -n literacy-kids-app-debug
+# Monitor in browser: https://github.com/<user>/<repo>/actions
+# OR: gh run watch && gh run download <id> -n literacy-kids-app-debug
 ```
 
-### Phase 5: VERIFY
+### 4. LOCAL BUILD (only if path is safe)
 
-Check APK output:
 ```bash
-# Local
-ls android/app/build/outputs/apk/debug/app-debug.apk
-
-# CI
-gh run list --limit 1
-gh run download $(gh run list --limit 1 --json databaseId -q '.[0].databaseId') -n literacy-kids-app-debug
+export JAVA_HOME="D:\Program Files\Android\Android Studio\jbr"
+export ANDROID_HOME="$HOME/Android/Sdk"
+cd android && ./gradlew assembleDebug   # Linux
+# OR: cd android && gradlew.bat assembleDebug   # Windows
 ```
 
-Expected: `app-debug.apk` ~4-5 MB
+### 5. VERIFY
 
-### Error Recovery
-
-| Error | Fix |
-|-------|-----|
-| `npm ci` lock file mismatch | `npm install` to regenerate lock |
-| `invalid source release: 21` | Set `java-version: '21'` in workflow |
-| `ANDROID_HOME not set` | `export ANDROID_HOME=~/Android/Sdk` |
-| Gradle permission denied | `chmod +x android/gradlew` |
-| Capacitor not found | `npm install @capacitor/core @capacitor/cli @capacitor/android` |
+```bash
+ls -lh android/app/build/outputs/apk/debug/app-debug.apk
+```

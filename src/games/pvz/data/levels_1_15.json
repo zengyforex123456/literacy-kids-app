@@ -1,0 +1,923 @@
+[
+  {
+    "level_id": 1,
+    "level_name": "后院草地-初识汉字",
+    "stage": "启蒙",
+    "theme": "grass",
+    "new_words": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五"
+    ],
+    "review_words": [],
+    "word_family": "数字族",
+    "plants_available": [
+      "pea",
+      "sun"
+    ],
+    "sun_start": 150,
+    "zombie_config": {
+      "basic": {
+        "count": 5,
+        "speed": 0.3,
+        "hp": 100
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 2,
+    "level_name": "后院草地-人体认知",
+    "stage": "启蒙",
+    "theme": "grass",
+    "new_words": [
+      "人",
+      "口",
+      "手",
+      "目",
+      "耳"
+    ],
+    "review_words": [
+      "一",
+      "二",
+      "三"
+    ],
+    "word_family": "人体族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut"
+    ],
+    "sun_start": 150,
+    "zombie_config": {
+      "basic": {
+        "count": 6,
+        "speed": 0.35,
+        "hp": 110
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 3,
+    "level_name": "后院草地-自然世界",
+    "stage": "启蒙",
+    "theme": "grass",
+    "new_words": [
+      "天",
+      "地",
+      "日",
+      "月",
+      "水"
+    ],
+    "review_words": [
+      "人",
+      "口",
+      "手"
+    ],
+    "word_family": "自然族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili"
+    ],
+    "sun_start": 160,
+    "zombie_config": {
+      "basic": {
+        "count": 7,
+        "speed": 0.38,
+        "hp": 115
+      },
+      "special": {
+        "type": "radical_zombie",
+        "count": 1,
+        "hp": 130,
+        "speed": 0.25
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 4,
+    "level_name": "迷雾泳池-方位探索",
+    "stage": "启蒙",
+    "theme": "pool",
+    "new_words": [
+      "上",
+      "下",
+      "左",
+      "右",
+      "中"
+    ],
+    "review_words": [
+      "天",
+      "地",
+      "日",
+      "月",
+      "水"
+    ],
+    "word_family": "方位族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow"
+    ],
+    "sun_start": 170,
+    "zombie_config": {
+      "basic": {
+        "count": 8,
+        "speed": 0.4,
+        "hp": 120
+      },
+      "special": {
+        "type": "radical_zombie",
+        "count": 2,
+        "hp": 140,
+        "speed": 0.28
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 5,
+    "level_name": "BOSS-初阶字族王",
+    "stage": "启蒙",
+    "theme": "boss",
+    "new_words": [
+      "大",
+      "小",
+      "多",
+      "少",
+      "好"
+    ],
+    "review_words": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "人",
+      "口",
+      "手"
+    ],
+    "word_family": "综合复习",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow"
+    ],
+    "sun_start": 200,
+    "zombie_config": {
+      "basic": {
+        "count": 6,
+        "speed": 0.42,
+        "hp": 130
+      },
+      "special": {
+        "type": "word_family_zombie",
+        "count": 3,
+        "hp": 160,
+        "speed": 0.3
+      }
+    },
+    "challenge_config": {
+      "type": "boss",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [
+        "学",
+        "习",
+        "字"
+      ],
+      "sun_reward": 1000,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 8
+    },
+    "boss_config": {
+      "name": "字族王",
+      "hp": 400,
+      "speed": 0.12,
+      "quiz_type": "family_match"
+    }
+  },
+  {
+    "level_id": 6,
+    "level_name": "屋顶之战-动物世界",
+    "stage": "启蒙",
+    "theme": "roof",
+    "new_words": [
+      "鸟",
+      "鱼",
+      "虫",
+      "马",
+      "牛"
+    ],
+    "review_words": [
+      "大",
+      "小",
+      "多",
+      "少"
+    ],
+    "word_family": "动物族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow"
+    ],
+    "sun_start": 180,
+    "zombie_config": {
+      "basic": {
+        "count": 9,
+        "speed": 0.44,
+        "hp": 125
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 7,
+    "level_name": "屋顶之战-颜色认知",
+    "stage": "启蒙",
+    "theme": "roof",
+    "new_words": [
+      "红",
+      "黄",
+      "蓝",
+      "绿"
+    ],
+    "review_words": [
+      "鸟",
+      "鱼",
+      "虫",
+      "马",
+      "牛"
+    ],
+    "word_family": "颜色族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 190,
+    "zombie_config": {
+      "basic": {
+        "count": 10,
+        "speed": 0.46,
+        "hp": 130
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 8,
+    "level_name": "黑夜墓地-动作感知",
+    "stage": "启蒙",
+    "theme": "night",
+    "new_words": [
+      "看",
+      "听",
+      "说",
+      "读",
+      "写"
+    ],
+    "review_words": [
+      "红",
+      "黄",
+      "蓝",
+      "绿",
+      "鸟",
+      "鱼"
+    ],
+    "word_family": "动作族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 200,
+    "zombie_config": {
+      "basic": {
+        "count": 10,
+        "speed": 0.48,
+        "hp": 135
+      },
+      "special": {
+        "type": "timed_zombie",
+        "count": 2,
+        "hp": 100,
+        "speed": 0.5
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    },
+    "boss_config": "timed"
+  },
+  {
+    "level_id": 9,
+    "level_name": "黑夜墓地-家人亲情",
+    "stage": "启蒙",
+    "theme": "night",
+    "new_words": [
+      "爸",
+      "妈",
+      "哥",
+      "姐",
+      "弟"
+    ],
+    "review_words": [
+      "看",
+      "听",
+      "说",
+      "人",
+      "口",
+      "手",
+      "好"
+    ],
+    "word_family": "家人族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 210,
+    "zombie_config": {
+      "basic": {
+        "count": 10,
+        "speed": 0.5,
+        "hp": 140
+      },
+      "special": {
+        "type": "radical_zombie",
+        "count": 3,
+        "hp": 150,
+        "speed": 0.32
+      }
+    },
+    "challenge_config": {
+      "type": "recognition",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [],
+      "sun_reward": 500,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    }
+  },
+  {
+    "level_id": 10,
+    "level_name": "BOSS-形近字大师",
+    "stage": "启蒙",
+    "theme": "boss",
+    "new_words": [
+      "晴",
+      "睛",
+      "清",
+      "请"
+    ],
+    "review_words": [
+      "红",
+      "黄",
+      "蓝",
+      "绿",
+      "大",
+      "小",
+      "多",
+      "少",
+      "好",
+      "人"
+    ],
+    "word_family": "青字族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 250,
+    "zombie_config": {
+      "basic": {
+        "count": 8,
+        "speed": 0.52,
+        "hp": 150
+      },
+      "special": {
+        "type": "word_family_zombie",
+        "count": 4,
+        "hp": 180,
+        "speed": 0.35
+      }
+    },
+    "challenge_config": {
+      "type": "boss",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [
+        "青",
+        "包",
+        "方"
+      ],
+      "sun_reward": 1200,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 2,
+      "third_review": 5,
+      "review_words_count": 10
+    },
+    "boss_config": {
+      "name": "形近字大师",
+      "hp": 500,
+      "speed": 0.1,
+      "quiz_type": "confusable_match"
+    }
+  },
+  {
+    "level_id": 11,
+    "level_name": "熔岩火山-包字家族",
+    "stage": "启蒙",
+    "theme": "volcano",
+    "new_words": [
+      "抱",
+      "跑",
+      "炮",
+      "泡"
+    ],
+    "review_words": [
+      "包",
+      "晴",
+      "睛",
+      "清",
+      "请"
+    ],
+    "word_family": "包字族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 220,
+    "zombie_config": {
+      "basic": {
+        "count": 11,
+        "speed": 0.54,
+        "hp": 145
+      },
+      "special": {
+        "type": "word_family_zombie",
+        "count": 3,
+        "hp": 160,
+        "speed": 0.35
+      }
+    },
+    "challenge_config": {
+      "type": [
+        "饱",
+        "苞"
+      ],
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": 900,
+      "sun_reward": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    },
+    "boss_config": "word_build"
+  },
+  {
+    "level_id": 12,
+    "level_name": "熔岩火山-方字家族",
+    "stage": "启蒙",
+    "theme": "volcano",
+    "new_words": [
+      "放",
+      "房",
+      "防",
+      "访"
+    ],
+    "review_words": [
+      "方",
+      "抱",
+      "跑",
+      "炮",
+      "泡",
+      "鸟",
+      "鱼",
+      "虫"
+    ],
+    "word_family": "方字族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 230,
+    "zombie_config": {
+      "basic": {
+        "count": 12,
+        "speed": 0.56,
+        "hp": 150
+      }
+    },
+    "challenge_config": {
+      "type": [
+        "仿",
+        "芳"
+      ],
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": 950,
+      "sun_reward": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    },
+    "boss_config": "word_build"
+  },
+  {
+    "level_id": 13,
+    "level_name": "天空之城-自然现象",
+    "stage": "启蒙",
+    "theme": "sky",
+    "new_words": [
+      "风",
+      "雨",
+      "雪",
+      "花",
+      "草"
+    ],
+    "review_words": [
+      "天",
+      "地",
+      "日",
+      "月",
+      "水",
+      "山",
+      "石",
+      "田"
+    ],
+    "word_family": "自然族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 240,
+    "zombie_config": {
+      "basic": {
+        "count": 12,
+        "speed": 0.58,
+        "hp": 155
+      },
+      "special": {
+        "type": "timed_zombie",
+        "count": 3,
+        "hp": 120,
+        "speed": 0.55
+      }
+    },
+    "challenge_config": {
+      "type": [
+        "春",
+        "夏"
+      ],
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": 1000,
+      "sun_reward": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    },
+    "boss_config": "timed"
+  },
+  {
+    "level_id": 14,
+    "level_name": "天空之城-季节天气",
+    "stage": "启蒙",
+    "theme": "sky",
+    "new_words": [
+      "春",
+      "夏",
+      "秋",
+      "冬",
+      "冷",
+      "热"
+    ],
+    "review_words": [
+      "风",
+      "雨",
+      "雪",
+      "花",
+      "草",
+      "红",
+      "黄",
+      "蓝"
+    ],
+    "word_family": "季节族",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 250,
+    "zombie_config": {
+      "basic": {
+        "count": 13,
+        "speed": 0.6,
+        "hp": 160
+      }
+    },
+    "challenge_config": {
+      "type": [
+        "冰",
+        "雪"
+      ],
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": 1100,
+      "sun_reward": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 3,
+      "third_review": 7,
+      "review_words_count": 5
+    },
+    "boss_config": "recognition"
+  },
+  {
+    "level_id": 15,
+    "level_name": "BOSS-字族之王(终章)",
+    "stage": "启蒙",
+    "theme": "boss",
+    "new_words": [
+      "青",
+      "包",
+      "方",
+      "好"
+    ],
+    "review_words": [
+      "晴",
+      "睛",
+      "清",
+      "请",
+      "抱",
+      "跑",
+      "炮",
+      "泡",
+      "放",
+      "房",
+      "防",
+      "风",
+      "雨",
+      "雪",
+      "花"
+    ],
+    "word_family": "综合复习",
+    "plants_available": [
+      "pea",
+      "sun",
+      "nut",
+      "chili",
+      "snow",
+      "cherry"
+    ],
+    "sun_start": 300,
+    "zombie_config": {
+      "basic": {
+        "count": 10,
+        "speed": 0.62,
+        "hp": 170
+      },
+      "special": {
+        "type": "word_family_zombie",
+        "count": 5,
+        "hp": 200,
+        "speed": 0.38
+      }
+    },
+    "challenge_config": {
+      "type": "boss",
+      "options_count": 3,
+      "time_limit": 10
+    },
+    "reward": {
+      "new_words_unlock": [
+        "学",
+        "习",
+        "字",
+        "好",
+        "书"
+      ],
+      "sun_reward": 2000,
+      "unlock_next_level": true
+    },
+    "memory_curve": {
+      "first_review": 1,
+      "second_review": 2,
+      "third_review": 5,
+      "review_words_count": 15
+    },
+    "boss_config": {
+      "name": "字族之王",
+      "hp": 600,
+      "speed": 0.08,
+      "quiz_type": "confusable_match"
+    }
+  }
+]

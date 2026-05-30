@@ -69,15 +69,17 @@ export function BubblePopGame() {
   }
 
   if (round > WORDS.length) {
+    const restart = () => { setRound(0); nextRound(); setPopped(new Set()); }
     return (
-      <div style={{ display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',minHeight:'100vh',gap:20,padding:40,textAlign:'center' }}>
-        <div style={{ fontSize:72 }}>🫧</div>
-        <h1 style={{ fontFamily:'var(--font-heading)',fontSize:32,color:'var(--bbaby-blue)' }}>游戏结束!</h1>
-        <p style={{ fontSize:18 }}>得⭐: {score}/{round - 1}</p>
-        <button onClick={() => navigate('/')} style={{
-          padding:'16px 48px',fontSize:20,fontWeight:700,border:'none',
-          borderRadius:20,background:'var(--bbaby-red)',color:'white',cursor:'pointer',
-        }}>🔄 再玩一次(新字)</button><button onClick={() => navigate('/game/matching')} style={{padding:'12px 32px',borderRadius:18,border:'none',background:'var(--bbaby-purple)',color:'white',fontWeight:700,cursor:'pointer',marginLeft:8}}>🎯 配对闯关</button><button onClick={() => navigate('/')} style={{background:'none',border:'none',color:'#999',cursor:'pointer',marginTop:8,display:'block',width:'100%'}}>返回主页</button>
+      <div style={{ minHeight:'100vh',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:16,padding:40,textAlign:'center',background:'linear-gradient(180deg,#E3F2FD,#BBDEFB)' }}>
+        <div style={{ fontSize:72 }}>🎉</div>
+        <h1 style={{ fontFamily:'var(--font-heading)',fontSize:28,color:'var(--disney-gold)' }}>通关成功!</h1>
+        <p style={{ fontSize:18 }}>得分: {score}  |  学会了 {WORDS.length} 个字!</p>
+        <div style={{ display:'flex',gap:12,marginTop:4 }}>
+          <button onClick={restart} style={{ padding:'14px 32px',borderRadius:28,border:'none',background:'var(--disney-gold)',color:'white',fontWeight:700,fontSize:16,cursor:'pointer' }}>🔄 再玩一次(新字)</button>
+          <button onClick={() => navigate('/game/matching')} style={{ padding:'14px 32px',borderRadius:28,border:'none',background:'var(--disney-purple)',color:'white',fontWeight:700,fontSize:16,cursor:'pointer' }}>🎯 配对闯关 →</button>
+        </div>
+        <button onClick={() => navigate('/')} style={{ background:'none',border:'none',color:'#999',cursor:'pointer',marginTop:4,fontSize:14 }}>返回主页</button>
       </div>
     )
   }

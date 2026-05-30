@@ -115,3 +115,21 @@ class ChineseWordSystem {
     return d === 'easy' ? 2 : d === 'normal' ? 3 : 4;
   }
 }
+// 分级字库加载
+ChineseWordSystem.prototype.loadWordBank = async function() {
+  const resp = await fetch('data/wordbank.json')
+  const bank = await resp.json()
+  this.wordBank = []
+  this.gradeWords = {}
+  for (const [grade, data] of Object.entries(bank)) {
+    const chars = data.chars.split('')
+    this.wordBank.push(...chars)
+    this.gradeWords[grade] = chars
+    // Also add radical groups
+    if (data.groups) {
+      data.groups.forEach(g => this.wordBank.push(...g.chars.split('')))
+    }
+  }
+  this.wordBank = [...new Set(this.wordBank)] // deduplicate
+  return this.wordBank.length
+}

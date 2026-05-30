@@ -119,4 +119,6 @@ export function HomeScreen() {
       </div>
     </div>
   )
-}
+}// Force daily exercise for testing
+import DailyExercise from '../../shared/components/DailyExercise';
+<DailyExercise />

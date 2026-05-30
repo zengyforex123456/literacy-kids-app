@@ -14,6 +14,7 @@ const GAMES = [
   { id:'matching',emoji:'🎯',label:'配对闯关',desc:'汉字配配对',color:'#F9A826' },
   { id:'writing',emoji:'✍️',label:'书写描红',desc:'练习写汉字',color:'#EC4899' },
   { id:'quiz',emoji:'🧠',label:'小测验',desc:'测试掌握的字',color:'#7C3AED' },
+  { id:'pvz',emoji:'🏰',label:'汉字保卫战',desc:'用字击败错字兽',color:'#DC2626' },
 ]
 
 export function HomeScreen() {

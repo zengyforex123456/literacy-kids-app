@@ -1,4 +1,5 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
+import { PhaserPVZGame } from '../games/pvz/PhaserGame'
 import { useEffect } from 'react'
 import { HomeScreen } from '../screens/home/HomeScreen'
 import { TreasureHuntGame } from '../games/treasure-hunt/TreasureHuntGame'
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/game/matching" element={<BridgeCourse />} />
         <Route path="/game/writing" element={<DigCourse />} />
         <Route path="/game/quiz" element={<BrainCourse words={QUIZ_WORDS} onComplete={(c:number,t:number) => alert(c+'/'+t+' correct!')} />} />
+        <Route path="/game/pvz" element={<PhaserPVZGame />} />
         <Route path="/rewards" element={<RewardsScreen />} />
         <Route path="/parent" element={<ParentScreen />} />
         <Route path="/report" element={<ReportScreen />} />

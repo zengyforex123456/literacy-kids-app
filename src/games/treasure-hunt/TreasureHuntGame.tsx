@@ -26,7 +26,7 @@ export function TreasureHuntGame() {
 
   const allFamilies = getAllFamilies()
   const totalFound = found.size
-  const unlocked = Math.min(Math.floor(totalFound / 3) + 1, allFamilies.length)
+  const unlocked = Math.min(Math.floor(totalFound / 3) + 3, allFamilies.length)
 
   useEffect(() => {
     startGame('treasure-hunt')
@@ -67,11 +67,11 @@ export function TreasureHuntGame() {
             const y = 8 + Math.floor(i / 3) * 42
             const open = i < unlocked
             return (
-              <motion.div key={f.radical} whileHover={open ? { scale:1.1 } : {}}
+              <motion.div key={f.displayChar || f.radical} whileHover={open ? { scale:1.1 } : {}}
                 onClick={() => { if (open) { setFamilyIdx(i); setView('family'); speak(f.name) } }}
                 style={{ position:'absolute',left:x+'%',top:y+'%',cursor:open?'pointer':'default',textAlign:'center',opacity:open?1:0.4,filter:open?'none':'grayscale(1)' }}
               >
-                <div style={{ fontSize:36,background:'rgba(255,255,255,0.9)',borderRadius:16,width:52,height:52,display:'flex',alignItems:'center',justifyContent:'center',fontWeight:700 }}>{f.radical}</div>
+                <div style={{ fontSize:36,background:'rgba(255,255,255,0.9)',borderRadius:16,width:52,height:52,display:'flex',alignItems:'center',justifyContent:'center',fontWeight:700 }}>{f.displayChar || f.radical}</div>
                 <div style={{ background:'white',borderRadius:10,padding:'2px 8px',fontSize:11,fontWeight:700,marginTop:2 }}>{f.name}({f.count})</div>
                 {!open && <div style={{ fontSize:16,marginTop:-44 }}>Lock</div>}
               </motion.div>

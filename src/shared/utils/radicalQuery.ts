@@ -1,6 +1,7 @@
 import families from '../db/radical_families_v1.json'
 
 export interface RadicalFamily {
+  displayChar?: string
   radical: string
   name: string
   members: string[]

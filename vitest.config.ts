@@ -8,15 +8,11 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./src/test/setup.ts'],
     css: true,
+    exclude: ['e2e/**', 'test-results/**', 'node_modules/**'],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'lcov'],
-      thresholds: {
-        lines: 60,
-        branches: 50,
-        functions: 60,
-        statements: 58,
-      },
+      thresholds: { lines:60, branches:50, functions:60, statements:58 },
     },
   },
 })

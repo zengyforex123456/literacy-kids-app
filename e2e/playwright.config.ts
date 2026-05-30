@@ -5,7 +5,7 @@ export default defineConfig({
   timeout: 15000,
   retries: 0,
   use: {
-    baseURL: 'http://localhost:5173',
+    baseURL: 'http://localhost:5174',
     browserName: 'chromium',
     screenshot: 'only-on-failure',
   },
@@ -16,7 +16,7 @@ export default defineConfig({
   ],
   webServer: {
     command: 'npm run dev',
-    url: 'http://localhost:5173',
+    url: 'http://localhost:5174',
     reuseExistingServer: true,
   },
 })

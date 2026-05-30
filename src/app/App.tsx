@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { useEffect } from 'react'
 import { HomeScreen } from '../screens/home/HomeScreen'
 import { TreasureHuntGame } from '../games/treasure-hunt/TreasureHuntGame'
@@ -28,7 +28,7 @@ export default function App() {
   useEffect(() => { seedWords().catch(() => {}) }, [])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <EyeCareOverlay />
       <Routes>
         <Route path="/" element={<HomeScreen />} />
@@ -42,6 +42,6 @@ export default function App() {
         <Route path="/parent" element={<ParentScreen />} />
         <Route path="/report" element={<ReportScreen />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }

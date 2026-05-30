@@ -16,7 +16,7 @@ describe('BubblePopGame', () => {
 
   it('should show score', () => {
     render(<MemoryRouter><BubblePopGame /></MemoryRouter>)
-    const elements = screen.getAllByText(/分/)
+    const elements = screen.getAllByText(/⭐/)
     expect(elements.length).toBeGreaterThan(0)
   })
 })

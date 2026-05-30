@@ -67,7 +67,7 @@ export function BubblePopGame() {
       <div style={{ display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',minHeight:'100vh',gap:20,padding:40,textAlign:'center' }}>
         <div style={{ fontSize:72 }}>🫧</div>
         <h1 style={{ fontFamily:'var(--font-heading)',fontSize:32,color:'var(--bbaby-blue)' }}>游戏结束!</h1>
-        <p style={{ fontSize:18 }}>得分: {score}/{round - 1}</p>
+        <p style={{ fontSize:18 }}>得⭐: {score}/{round - 1}</p>
         <button onClick={() => navigate('/')} style={{
           padding:'16px 48px',fontSize:20,fontWeight:700,border:'none',
           borderRadius:20,background:'var(--bbaby-red)',color:'white',cursor:'pointer',
@@ -82,7 +82,7 @@ export function BubblePopGame() {
       <div style={{ display:'flex',justifyContent:'space-between',alignItems:'center',padding:'12px 16px' }}>
         <button onClick={() => navigate('/')} style={{ fontSize:24,border:'none',background:'none',cursor:'pointer' }}>←</button>
         <span style={{ fontFamily:'var(--font-heading)',fontSize:20,color:'var(--bbaby-blue)' }}>🫧 泡泡大战</span>
-        <span style={{ fontWeight:700,fontSize:18,background:'white',padding:'6px 14px',borderRadius:16,boxShadow:'var(--shadow-sm)' }}>分 {score}</span>
+        <span style={{ fontWeight:700,fontSize:18,background:'white',padding:'6px 14px',borderRadius:16,boxShadow:'var(--shadow-sm)' }}>⭐ {score}</span>
       </div>
 
       <div style={{

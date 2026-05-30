@@ -16,18 +16,18 @@ interface PetState {
 }
 
 const PET_SPRITES: Record<PetMood, string> = {
-  sleeping: '眠',
-  hungry: '饿',
-  happy: '乐',
-  excited: '赞',
-  evolving: '进',
+  sleeping: '💤',
+  hungry: '😋',
+  happy: '😊',
+  excited: '🥳',
+  evolving: '✨',
 }
 
 const ELEMENT_EMOJI: Record<PetElement, string> = {
-  fire: '火',
-  water: '水',
-  wood: '木',
-  neutral: '星',
+  fire: '🔥',
+  water: '💧',
+  wood: '🌿',
+  neutral: '⭐',
 }
 
 export function SimplePet() {

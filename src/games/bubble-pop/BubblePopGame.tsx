@@ -10,11 +10,16 @@ import { useGameProgressStore } from '../../shared/stores/gameProgressStore'
 
 const ALL_CHARS = '山水火木人口手日月田力子女门车马虫鱼鸟王贝竹草土石金言目心'.split('')
 const COLORS = ['#FF9FF3','#FFD93D','#6BCB77','#4ECDC4','#A66CFF','#FF9F43','#FF6B6B','#42A5F5']
-function getRandomWords(n: number) {
-  const s = [...ALL_CHARS].sort(() => Math.random() - 0.5)
-  return s.slice(0, n).map(c => ({ chinese:c, english:c, emoji:'字', color:COLORS[Math.floor(Math.random()*COLORS.length)] }))
+
+function getSmartWords(n: number): {chinese:string;english:string;emoji:string;color:string}[] {
+  const store = useGameProgressStore.getState()
+  // 70% review + 30% new for optimal learning
+  const reviewCount = Math.floor(n * 0.7)
+  const newCount = n - reviewCount
+  const chars = store.getMixedChars(newCount, reviewCount, ALL_CHARS)
+  return chars.map(c => ({ chinese:c, english:c, emoji:'字', color:COLORS[Math.floor(Math.random()*COLORS.length)] }))
 }
-const WORDS = getRandomWords(8)
+const WORDS = getSmartWords(8)
 
 function shuffle<T>(arr: T[]): T[] { return [...arr].sort(() => Math.random() - 0.5) }
 

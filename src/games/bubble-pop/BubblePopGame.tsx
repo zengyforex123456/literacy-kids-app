@@ -6,6 +6,7 @@ import { useSound } from '../../shared/hooks/useSound'
 import { useGameStore } from '../../shared/stores/gameStore'
 import { useUserStore } from '../../shared/stores/userStore'
 import { Confetti } from '../../shared/components/Confetti'
+import { useGameProgressStore } from '../../shared/stores/gameProgressStore'
 
 const WORDS = [
   { chinese:'苹果',english:'apple',emoji:'🍎',color:'#FF9FF3' },
@@ -51,6 +52,7 @@ export function BubblePopGame() {
     setPopped(new Set([...popped, word.chinese]))
     if (word.chinese === target.chinese) {
       play('correct'); answerQuestion(true); addCoins(1)
+        useGameProgressStore.getState().addLearnedChars([word.chinese])
       setFeedback('correct'); setShowConfetti(true)
       speak('太棒了！' + word.chinese)
       setTimeout(() => { setFeedback(null); nextRound() }, 1200)

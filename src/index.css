@@ -1,73 +1,169 @@
 @import "tailwindcss";
 
 :root {
-  --bbaby-red: #FF6B6B;
-  --bbaby-red-dark: #E04F4F;
-  --bbaby-blue: #4ECDC4;
-  --bbaby-blue-dark: #3DBBB3;
-  --bbaby-yellow: #FFD93D;
-  --bbaby-yellow-dark: #E6C22C;
-  --bbaby-purple: #A66CFF;
-  --bbaby-purple-dark: #8A4FDE;
-  --bbaby-green: #6BCB77;
-  --bbaby-green-dark: #55B561;
-  --bbaby-orange: #FF9F43;
-  --bbaby-pink: #FF9FF3;
-  --bbaby-cream: #FFFDF7;
-  --bbaby-text: #2D3436;
-  --shadow-sm: 0 4px 0px rgba(0,0,0,0.1);
-  --shadow-md: 0 6px 0px rgba(0,0,0,0.1);
-  --shadow-lg: 0 8px 0px rgba(0,0,0,0.12);
-  --radius-lg: 24px;
+  --disney-gold: #F9A826;
+  --disney-gold-light: #FFD700;
+  --disney-blue: #1A73E8;
+  --disney-blue-deep: #0D47A1;
+  --disney-purple: #7C3AED;
+  --disney-pink: #EC4899;
+  --disney-red: #DC2626;
+  --disney-green: #16A34A;
+  --disney-teal: #0D9488;
+  --disney-cream: #FFF8E7;
+  --disney-white: #FFFDF7;
+  --disney-charcoal: #1E293B;
+
+  --shadow-soft: 0 4px 20px rgba(0,0,0,0.06);
+  --shadow-card: 0 8px 32px rgba(0,0,0,0.08);
+  --shadow-magic: 0 4px 24px rgba(249,168,38,0.25);
+  --shadow-float: 0 12px 40px rgba(0,0,0,0.12);
+
+  --radius-xl: 28px;
+  --radius-lg: 22px;
   --radius-md: 16px;
   --radius-sm: 12px;
+
+  --font-disney: 'Nunito', sans-serif;
   --font-heading: 'ZCOOL KuaiLe', cursive;
-  --font-body: 'Nunito', sans-serif;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: var(--font-body);
-  background: var(--bbaby-cream);
-  color: var(--bbaby-text);
+  font-family: var(--font-disney);
+  background: linear-gradient(180deg, #FFF8E7 0%, #FFFDF7 50%, #FFF8E7 100%);
+  color: var(--disney-charcoal);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
   overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(249,168,38,0.04) 0%, transparent 30%),
+    radial-gradient(circle at 80% 70%, rgba(124,58,237,0.04) 0%, transparent 30%),
+    radial-gradient(circle at 50% 40%, rgba(236,72,153,0.03) 0%, transparent 25%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 #root {
   max-width: 768px;
   margin: 0 auto;
   min-height: 100dvh;
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 1440px) {
   #root { max-width: 1024px; }
 }
 
-/* Game animations */
+/* Disney-style card */
+.disney-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.disney-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-float);
+}
+
+/* Disney-style button */
+.disney-btn {
+  padding: 14px 28px;
+  border-radius: 28px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: var(--font-disney);
+  transition: all 0.2s;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.1);
+}
+.disney-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+}
+.disney-btn-gold {
+  background: linear-gradient(135deg, var(--disney-gold-light), var(--disney-gold));
+  color: white;
+}
+.disney-btn-purple {
+  background: linear-gradient(135deg, #A78BFA, var(--disney-purple));
+  color: white;
+}
+
+/* Magic sparkle background */
+.magic-bg {
+  background:
+    radial-gradient(ellipse at top left, rgba(249,168,38,0.15), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(124,58,237,0.1), transparent 50%),
+    linear-gradient(180deg, #FFF8E7, #FFFDF7);
+  border-radius: var(--radius-xl);
+}
+
+/* Disney gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--disney-gold), var(--disney-pink), var(--disney-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Floating animation */
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
 }
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
 
+/* Sparkle animation */
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(180deg); }
+}
+
+/* Bob animation */
 @keyframes bob {
   0%, 100% { transform: translateY(0) scale(1); }
   50% { transform: translateY(-10px) scale(1.05); }
 }
 
+/* Confetti fall */
 @keyframes confetti-fall {
   0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
   100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
 }
 
+/* Pop animation */
 @keyframes pop {
   0% { transform: scale(1); opacity: 1; }
   100% { transform: scale(2); opacity: 0; }
 }
 
+/* Star burst */
 @keyframes star-burst {
-  0% { opacity: 1; transform: rotate(var(--angle, 0deg)) translateX(0) scale(1); }
-  100% { opacity: 0; transform: rotate(var(--angle, 0deg)) translateX(80px) scale(0); }
+  0% { opacity: 1; transform: scale(0) rotate(0); }
+  50% { opacity: 1; transform: scale(1.2) rotate(180deg); }
+  100% { opacity: 0; transform: scale(0) rotate(360deg); }
+}
+
+/* Disney sparkles - decorative stars */
+.sparkle-dot {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--disney-gold-light);
+  border-radius: 50%;
+  animation: sparkle 2s ease-in-out infinite;
 }

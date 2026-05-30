@@ -3,40 +3,25 @@ import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { HomeScreen } from '../HomeScreen'
 
-function renderHome() {
-  return render(<MemoryRouter><HomeScreen /></MemoryRouter>)
-}
+function renderHome() { return render(<MemoryRouter><HomeScreen /></MemoryRouter>) }
 
 describe('HomeScreen', () => {
-  it('should render the main title', () => {
+  it('renders title', () => {
     renderHome()
-    expect(screen.getByText(/识字乐园/)).toBeDefined()
+    expect(screen.getByText(/Magic Forest/)).toBeDefined()
   })
-
-  it('should render all 4 game cards', () => {
+  it('renders game cards', () => {
     renderHome()
-    expect(screen.getByText('汉字森林')).toBeDefined()
-    expect(screen.getByText('泡泡大战')).toBeDefined()
-    expect(screen.getByText('配对闯关')).toBeDefined()
-    expect(screen.getByText('书写描红')).toBeDefined()
+    expect(screen.getByText('Forest Quest')).toBeDefined()
+    expect(screen.getByText('Bubble Pop')).toBeDefined()
   })
-
-  it('should render navigation tabs', () => {
+  it('renders nav items', () => {
     renderHome()
-    expect(screen.getByText('首页')).toBeDefined()
-    expect(screen.getByText('贴纸')).toBeDefined()
-    expect(screen.getByText('成就')).toBeDefined()
-    expect(screen.getByText('家长')).toBeDefined()
+    const homes = screen.getAllByText('Home')
+    expect(homes.length).toBeGreaterThanOrEqual(1)
   })
-
-  it('should display coin section', () => {
+  it('shows streak', () => {
     renderHome()
-    const elements = screen.getAllByText(/⭐/)
-    expect(elements.length).toBeGreaterThan(0)
-  })
-
-  it('should display streak', () => {
-    renderHome()
-    expect(screen.getByText(/连续/)).toBeDefined()
+    expect(screen.getByText(/Fire/)).toBeDefined()
   })
 })

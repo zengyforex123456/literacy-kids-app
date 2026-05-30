@@ -32,7 +32,7 @@ const ELEMENT_EMOJI: Record<PetElement, string> = {
 
 export function SimplePet() {
   const [pet, setPet] = useState<PetState>({
-    name: 'XiaoLing',
+    name: '小灵',
     mood: 'happy',
     element: 'neutral',
     hunger: 6,
@@ -72,7 +72,7 @@ export function SimplePet() {
   }
 
   const checkEvolution = () => {
-    // Evolve when learned all chars in a radical family
+    // 进化 when learned all chars in a radical family
     setPet(p => ({
       ...p,
       mood: 'evolving',
@@ -83,11 +83,11 @@ export function SimplePet() {
   }
 
   const bubbleMessages: Record<PetMood, string> = {
-    sleeping: 'Zzz... See you tomorrow!',
-    hungry: 'I am hungry! Feed me by learning a character~',
-    happy: 'Great job! Keep going!',
-    excited: 'AMAZING! You reached the daily goal!',
-    evolving: 'I am evolving!!',
+    sleeping: '💤 晚安... 明天见!',
+    hungry: '😋 好饿! 学个字喂我吧~',
+    happy: '😊 太棒了! 继续加油!',
+    excited: '🥳 太厉害了! 今日目标达成!',
+    evolving: '✨ 我要进化了!!',
   }
 
   return (
@@ -144,8 +144,8 @@ export function SimplePet() {
 
       {/* Hidden feed test buttons for demo */}
       <div style={{ marginTop:4,display:'flex',gap:4 }}>
-        <button onClick={feed} style={{ fontSize:10,padding:'2px 6px',borderRadius:6,border:'1px solid #DDD',background:'white',cursor:'pointer' }}>Feed</button>
-        <button onClick={checkEvolution} style={{ fontSize:10,padding:'2px 6px',borderRadius:6,border:'1px solid #DDD',background:'white',cursor:'pointer' }}>Evolve</button>
+        <button onClick={feed} style={{ fontSize:10,padding:'2px 6px',borderRadius:6,border:'1px solid #DDD',background:'white',cursor:'pointer' }}>喂食</button>
+        <button onClick={checkEvolution} style={{ fontSize:10,padding:'2px 6px',borderRadius:6,border:'1px solid #DDD',background:'white',cursor:'pointer' }}>进化</button>
       </div>
     </div>
   )

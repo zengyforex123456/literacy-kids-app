@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { useEffect } from 'react'
 import { HomeScreen } from '../screens/home/HomeScreen'
-import { TravelCourse } from '../courses/travel/TravelCourse'
+import { TreasureHuntGame } from '../games/treasure-hunt/TreasureHuntGame'
 import { ReadAloudCourse } from '../courses/read-aloud/ReadAloudCourse'
 import { BridgeCourse } from '../courses/bridge/BridgeCourse'
 import { DigCourse } from '../courses/dig/DigCourse'
@@ -30,7 +30,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/onboarding" element={<OnboardingScreen />} />
-        <Route path="/game/treasure-hunt" element={<TravelCourse />} />
+        <Route path="/game/treasure-hunt" element={<TreasureHuntGame />} />
         <Route path="/game/bubble-pop" element={<ReadAloudCourse />} />
         <Route path="/game/matching" element={<BridgeCourse />} />
         <Route path="/game/writing" element={<DigCourse />} />

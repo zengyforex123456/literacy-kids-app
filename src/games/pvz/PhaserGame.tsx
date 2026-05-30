@@ -49,7 +49,7 @@ export function PhaserPVZGame() {
       class GameScene extends Phaser.Scene {
         plants:any[]=[];zombies:any[]=[];bullets:any[]=[];suns:any[]=[];mowers:any[]=[]
         grid:any[][]=[];ro=5;co=9;cw=90;ch=100;sx=80;sy=70
-        sun=200;score=0;gameEnd=false;selectedPlant=null;wave=1
+        sun=200;score=0;gameEnd=false;selectedPlant=null as any;wave=1
         cooldowns:Record<string,number>={pea:0,sun:0,nut:0,chili:0}
         words:string[]='山水火木人口手日月田力子女门车马虫鱼鸟大小多少上下左右中'.split('')
         plantCards:any[]=[];animFrame=0
@@ -158,7 +158,7 @@ export function PhaserPVZGame() {
           // Plant label
           const lb=this.add.text(x,y+40,p.w,{fontSize:'12px',fill:'#FFD700',stroke:'#000',strokeThickness:2}).setOrigin(0.5).setDepth(11)
           this.grid[r][c]={g,lb,plant:p,hp:300,row:r,col:c,timer:0,animType:p.key||'peashooter'}
-          this.selectedPlant=null;this.sunTxt.setText('☀ 阳光: '+Math.floor(this.sun))
+          this.selectedPlant=null as any;this.sunTxt.setText('☀ 阳光: '+Math.floor(this.sun))
           // Scale-in animation
           g.setScale(0);this.tweens.add({targets:g,scaleX:1,scaleY:1,duration:300,ease:'Back.easeOut'})
         }

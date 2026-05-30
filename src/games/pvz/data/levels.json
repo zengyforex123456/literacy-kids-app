@@ -1,12 +1,7 @@
 [
-  {"id":1,"name":"后院草坪","grade":"grade1","theme":"grass","words":["一","二","三","四","五"],"zombies":{"basic":5},"plants":["pea","sun"],"unlockWord":"基础入门"},
-  {"id":2,"name":"迷雾泳池","grade":"grade1","theme":"pool","words":["上","下","左","右","中"],"zombies":{"basic":7,"cone":1},"plants":["pea","sun","nut"],"unlockWord":"方位字"},
-  {"id":3,"name":"屋顶之战","grade":"grade1","theme":"roof","words":["日","月","水","火","山"],"zombies":{"basic":8,"cone":2},"plants":["pea","sun","nut","chili"],"unlockWord":"自然字"},
-  {"id":4,"name":"木之森林","grade":"grade1","theme":"forest","words":["木","林","森","树","花"],"zombies":{"basic":6,"cone":4},"plants":["pea","sun","nut","chili"],"unlockWord":"木字旁","radical":"木"},
-  {"id":5,"name":"Boss-巨人错字王","grade":"grade1","theme":"boss","words":["大","小","多","少","好"],"zombies":{"basic":8,"cone":3,"boss":1},"plants":["pea","sun","nut","chili"],"unlockWord":"比较字"},
-  {"id":6,"name":"黑夜墓地","grade":"grade2","theme":"night","words":["爸","妈","哥","姐","弟","妹"],"zombies":{"basic":6,"cone":5},"plants":["pea","sun","nut","chili","snow"],"unlockWord":"家人字"},
-  {"id":7,"name":"冰河时代","grade":"grade2","theme":"ice","words":["春","夏","秋","冬","冷","热"],"zombies":{"basic":4,"cone":6},"plants":["pea","sun","nut","chili","snow"],"unlockWord":"季节字"},
-  {"id":8,"name":"熔岩火山","grade":"grade2","theme":"volcano","words":["红","黄","蓝","绿","黑","白"],"zombies":{"basic":3,"cone":7,"boss":1},"plants":["pea","sun","nut","chili","snow","cherry"],"unlockWord":"颜色字"},
-  {"id":9,"name":"天空之城","grade":"grade3","theme":"sky","words":["天","地","风","雨","云","雷","电"],"zombies":{"cone":8,"boss":1},"plants":["pea","sun","nut","chili","snow","cherry"],"unlockWord":"天气字"},
-  {"id":10,"name":"终极决战","grade":"grade3","theme":"final","words":["星","辰","宇","宙","光","明","暗"],"zombies":{"cone":10,"boss":2},"plants":["pea","sun","nut","chili","snow","cherry"],"unlockWord":"宇宙字"}
+  {"id":1,"name":"后院草地","theme":"grass","words":["豌","豆","向","日","葵"],"mechanic":"拼音","desc":"种植前必须答对拼音","zombies":{"basic":5},"plants":["pea","sun"],"unlock":"豌豆向日葵"},
+  {"id":2,"name":"迷雾泳池","theme":"pool","words":["坚","果","墙","挡"],"mechanic":"配对","desc":"僵尸头顶偏旁，需配对应汉字","zombies":{"basic":6,"cone":2},"plants":["pea","sun","nut"],"unlock":"坚果墙"},
+  {"id":3,"name":"屋顶之战","theme":"roof","words":["樱","桃","炸","弹"],"mechanic":"限时","desc":"5秒内答对，否则僵尸加速","zombies":{"basic":5,"cone":3},"plants":["pea","sun","nut","chili"],"unlock":"樱桃炸弹","timeLimit":5},
+  {"id":4,"name":"黑夜墓地","theme":"night","words":["寒","冰","减","速"],"mechanic":"组词","desc":"用目标汉字组词，正确发射减速豌豆","zombies":{"basic":4,"cone":5},"plants":["pea","sun","nut","chili","snow"],"unlock":"寒冰射手"},
+  {"id":5,"name":"BOSS战-错字王","theme":"boss","words":["豌","坚","樱","寒"],"mechanic":"造句","desc":"复习前4关汉字，BOSS提问造句","zombies":{"basic":6,"cone":4,"boss":1},"plants":["pea","sun","nut","chili","snow"],"unlock":"全部植物","isBoss":true}
 ]

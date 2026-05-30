@@ -8,16 +8,13 @@ import { useUserStore } from '../../shared/stores/userStore'
 import { Confetti } from '../../shared/components/Confetti'
 import { useGameProgressStore } from '../../shared/stores/gameProgressStore'
 
-const WORDS = [
-  { chinese:'苹果',english:'apple',emoji:'🍎',color:'#FF9FF3' },
-  { chinese:'香蕉',english:'banana',emoji:'🍌',color:'#FFD93D' },
-  { chinese:'猫',english:'cat',emoji:'🐱',color:'#6BCB77' },
-  { chinese:'狗',english:'dog',emoji:'🐶',color:'#4ECDC4' },
-  { chinese:'大象',english:'elephant',emoji:'🐘',color:'#A66CFF' },
-  { chinese:'鸟',english:'bird',emoji:'🐦',color:'#FF9F43' },
-  { chinese:'鱼',english:'fish',emoji:'🐟',color:'#4ECDC4' },
-  { chinese:'花',english:'flower',emoji:'🌸',color:'#FF9FF3' },
-]
+const ALL_CHARS = '山水火木人口手日月田力子女门车马虫鱼鸟王贝竹草土石金言目心'.split('')
+const COLORS = ['#FF9FF3','#FFD93D','#6BCB77','#4ECDC4','#A66CFF','#FF9F43','#FF6B6B','#42A5F5']
+function getRandomWords(n: number) {
+  const s = [...ALL_CHARS].sort(() => Math.random() - 0.5)
+  return s.slice(0, n).map(c => ({ chinese:c, english:c, emoji:'字', color:COLORS[Math.floor(Math.random()*COLORS.length)] }))
+}
+const WORDS = getRandomWords(8)
 
 function shuffle<T>(arr: T[]): T[] { return [...arr].sort(() => Math.random() - 0.5) }
 
@@ -75,7 +72,7 @@ export function BubblePopGame() {
         <button onClick={() => navigate('/')} style={{
           padding:'16px 48px',fontSize:20,fontWeight:700,border:'none',
           borderRadius:20,background:'var(--bbaby-red)',color:'white',cursor:'pointer',
-        }}>回到主页</button>
+        }}>🔄 再玩一次(新字)</button><button onClick={() => navigate('/game/matching')} style={{padding:'12px 32px',borderRadius:18,border:'none',background:'var(--bbaby-purple)',color:'white',fontWeight:700,cursor:'pointer',marginLeft:8}}>🎯 配对闯关</button><button onClick={() => navigate('/')} style={{background:'none',border:'none',color:'#999',cursor:'pointer',marginTop:8,display:'block',width:'100%'}}>返回主页</button>
       </div>
     )
   }

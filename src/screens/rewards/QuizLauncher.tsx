@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { QuizGame } from '../../games/quiz/QuizGame'
+import { QuizGame } from '../games/quiz/QuizGame'
 
 interface Props { learnedChars: string[]; onClose: () => void }
 interface QuizWord { chinese: string; pinyin: string; emoji: string }
@@ -14,7 +14,7 @@ export function QuizLauncher({ learnedChars, onClose }: Props) {
       chinese: c, pinyin: '', emoji: 'Char'
     }))
     return (
-      <QuizGame words={words} onComplete={(correct, total) => {
+      <QuizGame words={words} onComplete={(correct: number, total: number) => {
         setResult(correct + '/' + total + ' correct!')
         setTimeout(() => onClose(), 2000)
       }} />

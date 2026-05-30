@@ -1,0 +1,974 @@
+[
+  {
+    "radical": "亻",
+    "display_name": "亻",
+    "members": [
+      "什",
+      "他",
+      "代",
+      "们",
+      "件",
+      "价",
+      "任",
+      "传",
+      "但",
+      "位",
+      "低",
+      "住",
+      "体",
+      "何",
+      "作",
+      "你",
+      "使",
+      "例",
+      "便",
+      "保",
+      "信",
+      "候",
+      "值",
+      "做"
+    ],
+    "count": 24,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "亻"
+  },
+  {
+    "radical": "口",
+    "display_name": "口",
+    "members": [
+      "口",
+      "只",
+      "叫",
+      "可",
+      "史",
+      "号",
+      "各",
+      "合",
+      "同",
+      "名",
+      "后",
+      "向",
+      "听",
+      "员",
+      "周",
+      "命",
+      "和",
+      "品",
+      "响",
+      "商",
+      "器"
+    ],
+    "count": 21,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "口"
+  },
+  {
+    "radical": "一",
+    "display_name": "一",
+    "members": [
+      "一",
+      "七",
+      "万",
+      "三",
+      "上",
+      "下",
+      "不",
+      "与",
+      "专",
+      "且",
+      "世",
+      "业",
+      "东",
+      "两",
+      "严"
+    ],
+    "count": 15,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "一"
+  },
+  {
+    "radical": "木",
+    "display_name": "木",
+    "members": [
+      "本",
+      "术",
+      "机",
+      "权",
+      "条",
+      "来",
+      "极",
+      "构",
+      "林",
+      "果",
+      "查",
+      "标",
+      "样",
+      "根",
+      "格"
+    ],
+    "count": 15,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "木"
+  },
+  {
+    "radical": "氵",
+    "display_name": "氵",
+    "members": [
+      "江",
+      "没",
+      "油",
+      "治",
+      "法",
+      "活",
+      "派",
+      "流",
+      "济",
+      "海",
+      "消",
+      "深",
+      "清",
+      "温",
+      "满"
+    ],
+    "count": 15,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "氵"
+  },
+  {
+    "radical": "辶",
+    "display_name": "辶",
+    "members": [
+      "边",
+      "达",
+      "过",
+      "运",
+      "近",
+      "还",
+      "这",
+      "进",
+      "连",
+      "适",
+      "选",
+      "通",
+      "速",
+      "造",
+      "道"
+    ],
+    "count": 15,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "辶"
+  },
+  {
+    "radical": "讠",
+    "display_name": "讠",
+    "members": [
+      "计",
+      "认",
+      "议",
+      "记",
+      "许",
+      "论",
+      "设",
+      "证",
+      "识",
+      "话",
+      "该",
+      "说",
+      "调"
+    ],
+    "count": 13,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "讠"
+  },
+  {
+    "radical": "扌",
+    "display_name": "扌",
+    "members": [
+      "才",
+      "打",
+      "技",
+      "把",
+      "报",
+      "拉",
+      "持",
+      "指",
+      "按",
+      "据",
+      "接",
+      "提"
+    ],
+    "count": 12,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "扌"
+  },
+  {
+    "radical": "纟",
+    "display_name": "纟",
+    "members": [
+      "红",
+      "约",
+      "级",
+      "线",
+      "组",
+      "细",
+      "织",
+      "经",
+      "结",
+      "给",
+      "统",
+      "维"
+    ],
+    "count": 12,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "纟"
+  },
+  {
+    "radical": "刂",
+    "display_name": "刂",
+    "members": [
+      "划",
+      "列",
+      "则",
+      "利",
+      "别",
+      "到",
+      "制",
+      "前"
+    ],
+    "count": 8,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "刂"
+  },
+  {
+    "radical": "又",
+    "display_name": "又",
+    "members": [
+      "又",
+      "及",
+      "反",
+      "发",
+      "取",
+      "受",
+      "变",
+      "难"
+    ],
+    "count": 8,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "又"
+  },
+  {
+    "radical": "心",
+    "display_name": "心",
+    "members": [
+      "心",
+      "必",
+      "志",
+      "思",
+      "总",
+      "想",
+      "意",
+      "感"
+    ],
+    "count": 8,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "心"
+  },
+  {
+    "radical": "攵",
+    "display_name": "攵",
+    "members": [
+      "收",
+      "改",
+      "放",
+      "政",
+      "效",
+      "教",
+      "数",
+      "整"
+    ],
+    "count": 8,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "攵"
+  },
+  {
+    "radical": "目",
+    "display_name": "目",
+    "members": [
+      "目",
+      "直",
+      "相",
+      "省",
+      "看",
+      "真",
+      "眼",
+      "着"
+    ],
+    "count": 8,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "目"
+  },
+  {
+    "radical": "阝",
+    "display_name": "阝",
+    "members": [
+      "那",
+      "部",
+      "都",
+      "队",
+      "阶",
+      "际",
+      "院",
+      "除"
+    ],
+    "count": 8,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "阝"
+  },
+  {
+    "radical": "囗",
+    "display_name": "囗",
+    "members": [
+      "四",
+      "回",
+      "因",
+      "团",
+      "国",
+      "图",
+      "圆"
+    ],
+    "count": 7,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "囗"
+  },
+  {
+    "radical": "土",
+    "display_name": "土",
+    "members": [
+      "土",
+      "在",
+      "地",
+      "场",
+      "型",
+      "基",
+      "增"
+    ],
+    "count": 7,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "土"
+  },
+  {
+    "radical": "宀",
+    "display_name": "宀",
+    "members": [
+      "它",
+      "安",
+      "完",
+      "定",
+      "实",
+      "家",
+      "容"
+    ],
+    "count": 7,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "宀"
+  },
+  {
+    "radical": "十",
+    "display_name": "十",
+    "members": [
+      "十",
+      "千",
+      "半",
+      "华",
+      "南",
+      "干"
+    ],
+    "count": 6,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "十"
+  },
+  {
+    "radical": "人",
+    "display_name": "人",
+    "members": [
+      "人",
+      "今",
+      "从",
+      "以",
+      "众",
+      "会"
+    ],
+    "count": 6,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "人"
+  },
+  {
+    "radical": "儿",
+    "display_name": "儿",
+    "members": [
+      "儿",
+      "元",
+      "先",
+      "光",
+      "克",
+      "党"
+    ],
+    "count": 6,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "儿"
+  },
+  {
+    "radical": "八",
+    "display_name": "八",
+    "members": [
+      "八",
+      "公",
+      "六",
+      "共",
+      "其",
+      "具"
+    ],
+    "count": 6,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "八"
+  },
+  {
+    "radical": "大",
+    "display_name": "大",
+    "members": [
+      "大",
+      "天",
+      "太",
+      "头",
+      "类"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "大"
+  },
+  {
+    "radical": "力",
+    "display_name": "力",
+    "members": [
+      "力",
+      "办",
+      "加",
+      "动",
+      "劳"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "力"
+  },
+  {
+    "radical": "厂",
+    "display_name": "厂",
+    "members": [
+      "厂",
+      "历",
+      "压",
+      "原",
+      "质"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "厂"
+  },
+  {
+    "radical": "女",
+    "display_name": "女",
+    "members": [
+      "她",
+      "好",
+      "如",
+      "始",
+      "委"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "女"
+  },
+  {
+    "radical": "广",
+    "display_name": "广",
+    "members": [
+      "平",
+      "广",
+      "应",
+      "府",
+      "度"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "广"
+  },
+  {
+    "radical": "日",
+    "display_name": "日",
+    "members": [
+      "日",
+      "时",
+      "明",
+      "易",
+      "是"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "日"
+  },
+  {
+    "radical": "禾",
+    "display_name": "禾",
+    "members": [
+      "种",
+      "科",
+      "积",
+      "称",
+      "程"
+    ],
+    "count": 5,
+    "source": "MakeMeAHanzi",
+    "verified": true,
+    "radical_hanzi": "禾"
+  },
+  {
+    "radical": "冫",
+    "display_name": "冫",
+    "members": [
+      "习",
+      "决",
+      "况",
+      "准"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "冫"
+  },
+  {
+    "radical": "二",
+    "display_name": "二",
+    "members": [
+      "二",
+      "于",
+      "五",
+      "些"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "二"
+  },
+  {
+    "radical": "车",
+    "display_name": "车",
+    "members": [
+      "军",
+      "车",
+      "转",
+      "较"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "车"
+  },
+  {
+    "radical": "尸",
+    "display_name": "尸",
+    "members": [
+      "局",
+      "层",
+      "展",
+      "属"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "尸"
+  },
+  {
+    "radical": "巾",
+    "display_name": "巾",
+    "members": [
+      "市",
+      "布",
+      "带",
+      "常"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "巾"
+  },
+  {
+    "radical": "彳",
+    "display_name": "彳",
+    "members": [
+      "往",
+      "很",
+      "律",
+      "得"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "彳"
+  },
+  {
+    "radical": "戈",
+    "display_name": "戈",
+    "members": [
+      "成",
+      "我",
+      "或",
+      "战"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "戈"
+  },
+  {
+    "radical": "灬",
+    "display_name": "灬",
+    "members": [
+      "点",
+      "热",
+      "然",
+      "照"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "灬"
+  },
+  {
+    "radical": "石",
+    "display_name": "石",
+    "members": [
+      "石",
+      "矿",
+      "研",
+      "确"
+    ],
+    "count": 4,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "石"
+  },
+  {
+    "radical": "丨",
+    "display_name": "丨",
+    "members": [
+      "个",
+      "中",
+      "书"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "丨"
+  },
+  {
+    "radical": "丷",
+    "display_name": "丷",
+    "members": [
+      "关",
+      "养",
+      "单"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "丷"
+  },
+  {
+    "radical": "丿",
+    "display_name": "丿",
+    "members": [
+      "么",
+      "义",
+      "之"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "丿"
+  },
+  {
+    "radical": "亅",
+    "display_name": "亅",
+    "members": [
+      "了",
+      "争",
+      "事"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "亅"
+  },
+  {
+    "radical": "亠",
+    "display_name": "亠",
+    "members": [
+      "交",
+      "产",
+      "京"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "亠"
+  },
+  {
+    "radical": "入",
+    "display_name": "入",
+    "members": [
+      "入",
+      "全",
+      "内"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "入"
+  },
+  {
+    "radical": "夂",
+    "display_name": "夂",
+    "members": [
+      "务",
+      "处",
+      "备"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "夂"
+  },
+  {
+    "radical": "厶",
+    "display_name": "厶",
+    "members": [
+      "去",
+      "县",
+      "参"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "厶"
+  },
+  {
+    "radical": "子",
+    "display_name": "子",
+    "members": [
+      "子",
+      "存",
+      "学"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "子"
+  },
+  {
+    "radical": "弓",
+    "display_name": "弓",
+    "members": [
+      "引",
+      "张",
+      "强"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "弓"
+  },
+  {
+    "radical": "彡",
+    "display_name": "彡",
+    "members": [
+      "形",
+      "影",
+      "须"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "彡"
+  },
+  {
+    "radical": "忄",
+    "display_name": "忄",
+    "members": [
+      "快",
+      "性",
+      "情"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "忄"
+  },
+  {
+    "radical": "斤",
+    "display_name": "斤",
+    "members": [
+      "断",
+      "斯",
+      "新"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "斤"
+  },
+  {
+    "radical": "曰",
+    "display_name": "曰",
+    "members": [
+      "更",
+      "最",
+      "电"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "曰"
+  },
+  {
+    "radical": "月",
+    "display_name": "月",
+    "members": [
+      "月",
+      "有",
+      "期"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "月"
+  },
+  {
+    "radical": "止",
+    "display_name": "止",
+    "members": [
+      "正",
+      "此",
+      "步"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "止"
+  },
+  {
+    "radical": "王",
+    "display_name": "王",
+    "members": [
+      "王",
+      "现",
+      "理"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "王"
+  },
+  {
+    "radical": "白",
+    "display_name": "白",
+    "members": [
+      "白",
+      "百",
+      "的"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "白"
+  },
+  {
+    "radical": "见",
+    "display_name": "见",
+    "members": [
+      "见",
+      "观",
+      "规"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "见"
+  },
+  {
+    "radical": "走",
+    "display_name": "走",
+    "members": [
+      "走",
+      "起",
+      "越"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "走"
+  },
+  {
+    "radical": "里",
+    "display_name": "里",
+    "members": [
+      "里",
+      "重",
+      "量"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "里"
+  },
+  {
+    "radical": "门",
+    "display_name": "门",
+    "members": [
+      "门",
+      "问",
+      "间"
+    ],
+    "count": 3,
+    "source": "MakeMeAHanzi",
+    "verified": false,
+    "radical_hanzi": "门"
+  }
+]
